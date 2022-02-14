@@ -1,0 +1,124 @@
+D:\Caroto\bin\Debug\net5.0\appsettings.Development.json
+D:\Caroto\bin\Debug\net5.0\appsettings.json
+D:\Caroto\bin\Debug\net5.0\Caroto.exe
+D:\Caroto\bin\Debug\net5.0\Caroto.deps.json
+D:\Caroto\bin\Debug\net5.0\Caroto.runtimeconfig.json
+D:\Caroto\bin\Debug\net5.0\Caroto.runtimeconfig.dev.json
+D:\Caroto\bin\Debug\net5.0\Caroto.dll
+D:\Caroto\bin\Debug\net5.0\ref\Caroto.dll
+D:\Caroto\bin\Debug\net5.0\Caroto.pdb
+D:\Caroto\bin\Debug\net5.0\Caroto.Views.dll
+D:\Caroto\bin\Debug\net5.0\Caroto.Views.pdb
+D:\Caroto\obj\Debug\net5.0\Caroto.csproj.AssemblyReference.cache
+D:\Caroto\obj\Debug\net5.0\Caroto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Caroto\obj\Debug\net5.0\Caroto.AssemblyInfoInputs.cache
+D:\Caroto\obj\Debug\net5.0\Caroto.AssemblyInfo.cs
+D:\Caroto\obj\Debug\net5.0\Caroto.csproj.CoreCompileInputs.cache
+D:\Caroto\obj\Debug\net5.0\Caroto.MvcApplicationPartsAssemblyInfo.cache
+D:\Caroto\obj\Debug\net5.0\Caroto.RazorAssemblyInfo.cache
+D:\Caroto\obj\Debug\net5.0\Caroto.RazorAssemblyInfo.cs
+D:\Caroto\obj\Debug\net5.0\staticwebassets\Caroto.StaticWebAssets.Manifest.cache
+D:\Caroto\obj\Debug\net5.0\staticwebassets\Caroto.StaticWebAssets.xml
+D:\Caroto\obj\Debug\net5.0\scopedcss\bundle\Caroto.styles.css
+D:\Caroto\obj\Debug\net5.0\Caroto.TagHelpers.input.cache
+D:\Caroto\obj\Debug\net5.0\Caroto.TagHelpers.output.cache
+D:\Caroto\obj\Debug\net5.0\Caroto.RazorCoreGenerate.cache
+D:\Caroto\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Caroto\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Caroto\obj\Debug\net5.0\Razor\Views\Home\SegundaPagina.cshtml.g.cs
+D:\Caroto\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Caroto\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Caroto\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Caroto\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Caroto\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Caroto\obj\Debug\net5.0\Caroto.RazorTargetAssemblyInfo.cache
+D:\Caroto\obj\Debug\net5.0\Caroto.RazorTargetAssemblyInfo.cs
+D:\Caroto\obj\Debug\net5.0\Caroto.Views.pdb
+D:\Caroto\obj\Debug\net5.0\Caroto.dll
+D:\Caroto\obj\Debug\net5.0\ref\Caroto.dll
+D:\Caroto\obj\Debug\net5.0\Caroto.pdb
+D:\Caroto\obj\Debug\net5.0\Caroto.genruntimeconfig.cache
+D:\Caroto\obj\Debug\net5.0\Caroto.csproj.CopyComplete
+E:\Caroto\obj\Debug\net5.0\Caroto.csproj.AssemblyReference.cache
+E:\Caroto\obj\Debug\net5.0\Caroto.GeneratedMSBuildEditorConfig.editorconfig
+E:\Caroto\obj\Debug\net5.0\Caroto.AssemblyInfoInputs.cache
+E:\Caroto\obj\Debug\net5.0\Caroto.AssemblyInfo.cs
+E:\Caroto\obj\Debug\net5.0\Caroto.csproj.CoreCompileInputs.cache
+E:\Caroto\obj\Debug\net5.0\Caroto.MvcApplicationPartsAssemblyInfo.cache
+E:\Caroto\obj\Debug\net5.0\Caroto.RazorAssemblyInfo.cache
+E:\Caroto\obj\Debug\net5.0\Caroto.RazorAssemblyInfo.cs
+E:\Caroto\obj\Debug\net5.0\scopedcss\bundle\Caroto.styles.css
+E:\Caroto\obj\Debug\net5.0\staticwebassets\Caroto.StaticWebAssets.Manifest.cache
+E:\Caroto\obj\Debug\net5.0\Caroto.TagHelpers.input.cache
+E:\Caroto\obj\Debug\net5.0\Caroto.TagHelpers.output.cache
+E:\Caroto\obj\Debug\net5.0\Caroto.RazorCoreGenerate.cache
+E:\Caroto\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\Caroto\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\Caroto\obj\Debug\net5.0\Razor\Views\Home\SegundaPagina.cshtml.g.cs
+E:\Caroto\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Caroto\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Caroto\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Caroto\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Caroto\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Caroto\obj\Debug\net5.0\Caroto.RazorTargetAssemblyInfo.cache
+E:\Caroto\obj\Debug\net5.0\Caroto.RazorTargetAssemblyInfo.cs
+E:\Caroto\obj\Debug\net5.0\Caroto.dll
+E:\Caroto\obj\Debug\net5.0\ref\Caroto.dll
+E:\Caroto\obj\Debug\net5.0\Caroto.pdb
+E:\Caroto\bin\Debug\net5.0\appsettings.Development.json
+E:\Caroto\bin\Debug\net5.0\appsettings.json
+E:\Caroto\bin\Debug\net5.0\Caroto.StaticWebAssets.xml
+E:\Caroto\bin\Debug\net5.0\Caroto.exe
+E:\Caroto\bin\Debug\net5.0\Caroto.deps.json
+E:\Caroto\bin\Debug\net5.0\Caroto.runtimeconfig.json
+E:\Caroto\bin\Debug\net5.0\Caroto.runtimeconfig.dev.json
+E:\Caroto\bin\Debug\net5.0\Caroto.dll
+E:\Caroto\bin\Debug\net5.0\ref\Caroto.dll
+E:\Caroto\bin\Debug\net5.0\Caroto.pdb
+E:\Caroto\bin\Debug\net5.0\Caroto.Views.dll
+E:\Caroto\bin\Debug\net5.0\Caroto.Views.pdb
+E:\Caroto\obj\Debug\net5.0\Caroto.Views.pdb
+E:\Caroto\obj\Debug\net5.0\Caroto.genruntimeconfig.cache
+E:\Caroto\obj\Debug\net5.0\Caroto.csproj.CopyComplete
+D:\Proyecto Programacion\Caroto\bin\Debug\net5.0\appsettings.Development.json
+D:\Proyecto Programacion\Caroto\bin\Debug\net5.0\appsettings.json
+D:\Proyecto Programacion\Caroto\bin\Debug\net5.0\Caroto.exe
+D:\Proyecto Programacion\Caroto\bin\Debug\net5.0\Caroto.deps.json
+D:\Proyecto Programacion\Caroto\bin\Debug\net5.0\Caroto.runtimeconfig.json
+D:\Proyecto Programacion\Caroto\bin\Debug\net5.0\Caroto.runtimeconfig.dev.json
+D:\Proyecto Programacion\Caroto\bin\Debug\net5.0\Caroto.dll
+D:\Proyecto Programacion\Caroto\bin\Debug\net5.0\ref\Caroto.dll
+D:\Proyecto Programacion\Caroto\bin\Debug\net5.0\Caroto.pdb
+D:\Proyecto Programacion\Caroto\bin\Debug\net5.0\Caroto.Views.dll
+D:\Proyecto Programacion\Caroto\bin\Debug\net5.0\Caroto.Views.pdb
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.csproj.AssemblyReference.cache
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.AssemblyInfoInputs.cache
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.AssemblyInfo.cs
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.csproj.CoreCompileInputs.cache
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.MvcApplicationPartsAssemblyInfo.cache
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.RazorAssemblyInfo.cache
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.RazorAssemblyInfo.cs
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\staticwebassets\Caroto.StaticWebAssets.Manifest.cache
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\staticwebassets\Caroto.StaticWebAssets.xml
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\scopedcss\bundle\Caroto.styles.css
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.TagHelpers.input.cache
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.TagHelpers.output.cache
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.RazorCoreGenerate.cache
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Razor\Views\Home\SegundaPagina.cshtml.g.cs
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.RazorTargetAssemblyInfo.cache
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.RazorTargetAssemblyInfo.cs
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.Views.pdb
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.dll
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\ref\Caroto.dll
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.pdb
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.genruntimeconfig.cache
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Caroto.csproj.CopyComplete
+D:\Proyecto Programacion\Caroto\obj\Debug\net5.0\Razor\Views\Home\Registro.cshtml.g.cs

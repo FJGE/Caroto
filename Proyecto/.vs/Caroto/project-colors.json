@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "f4a202ec-0a2d-40dc-b9f5-9e67253302ae": {
+      "ProjectGuid": "f4a202ec-0a2d-40dc-b9f5-9e67253302ae",
+      "DisplayName": "Caroto",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
