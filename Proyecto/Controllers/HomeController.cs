@@ -7,10 +7,6 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-Hola a todos
-
-
-
 namespace Caroto.Controllers
 {
     public class HomeController : Controller
