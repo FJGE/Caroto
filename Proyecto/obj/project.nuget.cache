@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yOde1mvSzceOKzsJIH6J23uoruSSwOoRS6WzIvLf1r7ULun2HwhEtjDxRDB+6ZLnNVXzX1BZ4XnxCQHjfmqVNQ==",
+  "dgSpecHash": "ajJv/Q9e0GL12YHE/sdeqrfqYP8cbXEPA1TZAGGC4tAs9iVatvG/zu3KDHaFEtGDsh2gIW6gbmFmEVPxZSUgxw==",
   "success": true,
-  "projectFilePath": "D:\\Proyecto Programacion\\Caroto\\Caroto.csproj",
+  "projectFilePath": "D:\\Caroto\\Proyecto\\Caroto.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
