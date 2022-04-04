@@ -1,4 +1,4 @@
-﻿using CapaPresentacion.Models;
+﻿using Caroto.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,31 +7,36 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CapaPresentacion.Controllers
+namespace Caroto.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
-        public IActionResult Index()
+        public ActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpPost]
+        public ActionResult Index(LoginViewModel loginDataModel)
+        {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("SegundaPagina");
+            }
+            else
+            {
+                return View(loginDataModel);
+            }
+        }
+
+        public ActionResult SegundaPagina()
         {
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public ActionResult Registro()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vYCw50cHH8uDd7kIqfyo6eVYhe9a2c4vtnvcTQaw5sfZQilux98Ge8OWtU5vu4k6wfpaMpQCu7S8JjWaBYwfAg==",
+  "dgSpecHash": "c+BklSjviN2OECqhk039LUtlxaOtE2jGp1u1P4E5iyRb+f6pVfZke7Hvjnnr7nB9eeHpKfNv4Sdx6dM24ySg4Q==",
   "success": true,
-  "projectFilePath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj",
+  "projectFilePath": "D:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1DAW\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\1DAW\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

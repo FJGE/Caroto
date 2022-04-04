@@ -1,0 +1,14 @@
+﻿@model LoginViewModel
+
+
+@{ 
+    Layout = "~/Views/Shared/_Layout - MainApp.cshtml";
+}
+    <h1 id="user-title" style="margin-left: 600px; font-size: 35px;">@Html.LabelFor(x => x.Title)</h1>
+    <img src="~/Imagenes/coche.png" width="500" height="400" style="margin-left: 100px; margin-top: 150px;" />
+    <br /><br />
+    @Html.ActionLink("Coches", "", "Home", null, new { id = "vehicle-btn-car" })
+    <hr class="hr-box-large">
+    <img src="~/Imagenes/moto.png" width="300" height="300" style="margin-left: 950px; margin-top: -450px;" />
+    <br /><br />
+    @Html.ActionLink("Motos", "", "Home", null, new { id = "vehicle-btn-bike" })
