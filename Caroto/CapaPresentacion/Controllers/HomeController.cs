@@ -15,16 +15,6 @@ namespace Caroto.Controllers
         {
             return View();
         }
-        public ActionResult Index2()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public ActionResult Index2()
-        {
-            return View();
-        }
 
         [HttpPost]
         public ActionResult Index(LoginViewModel loginDataModel)
@@ -45,11 +35,6 @@ namespace Caroto.Controllers
         }
 
         public ActionResult Registro()
-        {
-            return View();
-        }
-
-        public ActionResult Pepito()
         {
             return View();
         }
