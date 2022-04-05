@@ -4,9 +4,9 @@ using System.Data;
 
 namespace CapaNegocio
 {
-    public class CN_Productos
+    public class CN_Usuarios
     {
-        private CD_Productos objetoCD = new CD_Productos();
+        private CD_Usuarios objetoCD = new CD_Usuarios();
         public DataTable MostrarUsu()
         {
             DataTable tabla = new DataTable();

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace CapaDatos
 {
-    public class CD_Productos
+    public class CD_Usuarios
     {
         private CD_Conexion conexion = new CD_Conexion();
         SqlDataReader leer;
