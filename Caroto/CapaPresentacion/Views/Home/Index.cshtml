@@ -7,13 +7,8 @@
     <div class="title">
         <img src="~/logo.png" style="margin-left: 80px; position: fixed;"/>
     </div>
-
-
-
-    
     @Html.ActionLink("Registrarse", "Registro", "Home",null, new {id = "register-btn"})
     <hr>
-
     @Html.LabelFor(x => x.Email, new { @class = "", id = "user-title" })
     @Html.TextBoxFor(x => x.Email, new { @class = "form-control", id = "email", placeholder = "Email" })
     @Html.ValidationMessageFor(x => x.Email, null, new { @class = "text-danger" })
@@ -21,7 +16,6 @@
     @Html.LabelFor(x => x.Password, new { @class = "", id = "pass-title" })
     @Html.PasswordFor(x => x.Password, new { @class = "form-control", id = "password", placeholder = "Contraseña" })
     @Html.ValidationMessageFor(x => x.Password, null, new { @class = "text-danger2" })
-
     <button id="btn_log" type="submit">
         Iniciar Sesión
     </button>
