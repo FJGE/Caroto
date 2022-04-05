@@ -13,7 +13,6 @@ namespace Caroto.Controllers
     {
         public ActionResult Index()
         {
-            //hola
             return View();
         }
 
