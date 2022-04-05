@@ -38,5 +38,10 @@ namespace Caroto.Controllers
         {
             return View();
         }
+
+        public ActionResult Pepito()
+        {
+            return View();
+        }
     }
 }
