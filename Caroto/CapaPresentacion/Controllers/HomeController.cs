@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using CapaNegocio;
 
 namespace Caroto.Controllers
 {
@@ -21,6 +22,8 @@ namespace Caroto.Controllers
         {
             if (ModelState.IsValid)
             {
+                CN_Usuarios u = new CN_Usuarios(); 
+                u.MostrarUsu();
                 return RedirectToAction("SegundaPagina");
             }
             else
