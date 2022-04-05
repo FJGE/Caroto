@@ -17,6 +17,12 @@ namespace Caroto.Controllers
         }
 
         [HttpPost]
+        public ActionResult Index2()
+        {
+            return View();
+        }
+
+        [HttpPost]
         public ActionResult Index(LoginViewModel loginDataModel)
         {
             if (ModelState.IsValid)
