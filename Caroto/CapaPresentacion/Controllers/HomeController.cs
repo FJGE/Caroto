@@ -39,6 +39,7 @@ namespace Caroto.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public ActionResult Registro(LoginViewModel loginDataModel)
         {
