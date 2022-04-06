@@ -4,7 +4,7 @@
 @{ 
     Layout = "~/Views/Shared/_Layout - MainApp.cshtml";
 }
-    <h1 id="user-title" style="margin-left: 600px; font-size: 35px;">@Html.LabelFor(x => x.Title)</h1>
+    <h1 id="title" style="margin-left: 600px; margin-top: 40px; font-size: 35px;">@Html.LabelFor(x => x.Title)</h1>
     <img src="~/Imagenes/coche.png" width="500" height="400" style="margin-left: 100px; margin-top: 150px;" />
     <br /><br />
     @Html.ActionLink("Coches", "", "Home", null, new { id = "vehicle-btn-car" })
