@@ -27,12 +27,12 @@ namespace CapaDatos
         public void Insertar(string correo, string contraseña)
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "InsetarUsuarios";
+            comando.CommandText = "InsertarUsuarios";
             comando.CommandType = CommandType.StoredProcedure;
             comando.Parameters.AddWithValue("@correo", correo);
             comando.Parameters.AddWithValue("@contraseña", contraseña);
 
-
+            
             comando.ExecuteNonQuery();
 
             comando.Parameters.Clear();
