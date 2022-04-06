@@ -14,14 +14,14 @@ namespace Caroto.Models
             ErrorMessage = "Dirección de Correo incorrecta.")]
         [StringLength(100, ErrorMessage = "Longitud máxima 100")]
         [DataType(DataType.EmailAddress)]
-        public string Email { get; set; }
+        public string Correo { get; set; }
 
         [Display(Name = "Contraseña")]
         [Required(ErrorMessage = "Este campo es requerido.")]
         [StringLength(16, ErrorMessage = "Longitud entre 8 y 16 caracteres.",
                       MinimumLength = 8)]
         [DataType(DataType.Password)]
-        public string Password { get; set; }
+        public string Contraseña { get; set; }
 
         [Display(Name = "Elija su Vehiculo")]
         [DataType(DataType.Text)]
