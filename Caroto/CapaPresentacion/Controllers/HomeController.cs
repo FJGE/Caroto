@@ -39,14 +39,14 @@ namespace Caroto.Controllers
         {
             return View();
         }
-
+        [HttpPost]
         public ActionResult Registro(LoginViewModel loginDataModel)
         {
             if (ModelState.IsValid)
             {
                 CN_Usuarios u = new CN_Usuarios();
                 u.MostrarUsu();
-                u.InsertarUsu(loginDataModel.Email, loginDataModel.Password);
+                u.InsertarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
 
                 return RedirectToAction("SegundaPagina");
             }
