@@ -33,22 +33,11 @@ body {
     background-color: #fafcef;
 }
 
-.title {
+.title-logo {
     margin-top: 90px;
     position: fixed;
     font-size: 40px;
     font-family: 'Pacifico', cursive;
-}
-
-.text-danger {
-    position: fixed;
-    margin: 150px 0px 0px 570px;
-}
-
-.text-danger2 {
-    position: fixed;
-    margin: 300px 0px 0px 570px;
-    color: red;
 }
 
 hr {
@@ -71,31 +60,7 @@ hr {
     border-left: 2px solid hsla(200, 10%, 50%,100);
 }
 
-#register-btn {
-    text-decoration: none;
-    padding-top: 5px;
-    text-align: center;
-    position: fixed;
-    width: 200px;
-    height: 60px;
-    font-size: 30px;
-    font-family: calibri;
-    border: 2px solid;
-    border-radius: 40px;
-    border-color: black;
-    margin: 320px 0px 0px 130px;
-    background: black;
-    color: honeydew;
-    transition: 0.5s;
-}
-
-#register-btn:hover {
-    color: black;
-    background: honeydew;
-    border: 2px solid;
-}
-
-#btn_log {
+#btn-general {
     text-decoration: none;
     text-align: center;
     position: fixed;
@@ -106,53 +71,29 @@ hr {
     border: 2px solid;
     border-radius: 40px;
     border-color: black;
-    margin: 350px 0px 0px 560px;
     background: black;
     color: honeydew;
     transition: 0.5s;
 }
 
-#btn_log:hover {
+#btn-general:hover {
     color: black;
     background: honeydew;
     border: 2px solid;
 }
 
-#user-title {
+#title {
     position: fixed;
     font-size: 25px;
-    margin: 30px 0px 0px 500px;
     font-family: 'Pacifico', cursive;
 }
 
-#pass-title {
-    position: fixed;
-    font-size: 25px;
-    margin: 180px 0px 0px 500px;
-    font-family: 'Pacifico', cursive;
-}
-
-#email {
+#textBox {
     position: fixed;
     padding: 10px;
     width: 250px;
     height: 40px;
     font-size: 20px;
-    margin: 100px 0px 0px 530px;
-    border: 2px solid;
-    border-color: black;
-    -webkit-box-shadow: 5px 5px 0px 0px #289FED, 5px 5px 15px 5px rgba(0,0,0,0);
-    box-shadow: 5px 5px 0px 0px black, 5px 5px 15px 5px rgba(0,0,0,0);
-    background-color: papayawhip;
-}
-
-#password {
-    position: fixed;
-    padding: 10px;
-    width: 250px;
-    height: 40px;
-    font-size: 20px;
-    margin: 250px 0px 0px 530px;
     border: 2px solid;
     border-color: black;
     -webkit-box-shadow: 5px 5px 0px 0px #289FED, 5px 5px 15px 5px rgba(0,0,0,0);

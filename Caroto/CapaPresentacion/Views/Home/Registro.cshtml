@@ -3,22 +3,20 @@
 
 @using (Html.BeginForm("Index", "Home", FormMethod.Post))
 {
-    <div class="box">
-        <div class="title">
-            <img src="~/logo.png" style="margin-left: 80px; margin-top: 50px; position: fixed;" />
-        </div>
-        <hr>
-
-        @Html.LabelFor(x => x.Correo, new { @class = "", id = "user-title" })
-        @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", id = "email", placeholder = "Email" })
-        @Html.ValidationMessageFor(x => x.Correo, null, new { @class = "text-danger" })
-
-        @Html.LabelFor(x => x.Contraseña, new { @class = "", id = "pass-title" })
-        @Html.PasswordFor(x => x.Contraseña, new { @class = "form-control", id = "password", placeholder = "Contraseña" })
-        @Html.ValidationMessageFor(x => x.Contraseña, null, new { @class = "text-danger2" })
-
-        <button id="btn_log" type="submit">
-            Crear Cuenta
-        </button>
+<div class="box">
+    <div class="title-logo">
+        <img src="~/logo.png" style="margin-left: 80px; margin-top: 50px; position: fixed;" />
     </div>
+    <hr>
+
+    @Html.LabelFor(x => x.Correo, new { @class = "", id = "title", style = "margin: 30px 0px 0px 500px;" })
+    @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", id = "textBox", placeholder = "Email", style = "margin: 100px 0px 0px 530px;" })
+    @Html.ValidationMessageFor(x => x.Correo, null, new { @class = "text-danger", style = "margin: 150px 0px 0px 570px; position: fixed;" })
+
+    @Html.LabelFor(x => x.Contraseña, new { @class = "", id = "title", style = "margin: 180px 0px 0px 500px;" })
+    @Html.PasswordFor(x => x.Contraseña, new { @class = "form-control", id = "textBox", placeholder = "Contraseña", style = "margin: 250px 0px 0px 530px;" })
+    @Html.ValidationMessageFor(x => x.Contraseña, null, new { @class = "text-danger", style = "margin: 300px 0px 0px 570px; position: fixed;" })
+
+    @Html.ActionLink("Crear Cuenta", "Registro", "Home", null, new { id = "btn-general", style = "margin: 350px 0px 0px 560px;" })
+</div>
 }
