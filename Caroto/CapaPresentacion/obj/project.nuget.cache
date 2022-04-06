@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y9PaPI28lJC1H8mlrJapStl7zrgJf8N7+tNMwLEzpzIy6FuzF7bbirPbvkQFJvs13D/aEAAn+/G5hvPtkIIa9w==",
+  "dgSpecHash": "MruEKf9jNkaojfIgaPm1Tz0dHLQBMWie4tMgpYVmTtBhD4qrQzojJWFjGUoIuo69DR+4X/D+39x4DSgqjQsaZw==",
   "success": true,
-  "projectFilePath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj",
+  "projectFilePath": "D:\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1DAW\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\1DAW\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
