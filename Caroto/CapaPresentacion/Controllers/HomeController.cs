@@ -32,11 +32,13 @@ namespace Caroto.Controllers
                 return View(loginDataModel);
             }
         }
+
         public ActionResult Registro()
         {
             return View(new LoginViewModel());
         }
-            [HttpPost]
+
+        [HttpPost]
         public ActionResult Registro(LoginViewModel loginDataModel)
         {
             if (ModelState.IsValid)
