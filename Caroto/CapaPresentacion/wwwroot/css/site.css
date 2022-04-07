@@ -34,10 +34,15 @@ body {
 }
 
 .title-logo {
-    margin-top: 90px;
+    background-image: url(../logo.png);
+    width: 400px;
+    height: 280px;
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 30px;
     position: fixed;
-    font-size: 40px;
-    font-family: 'Pacifico', cursive;
+
 }
 
 hr {
@@ -68,6 +73,7 @@ hr {
     height: 60px;
     font-size: 30px;
     font-family: calibri;
+    padding-top: 5px;
     border: 2px solid;
     border-radius: 40px;
     border-color: black;
@@ -100,50 +106,3 @@ hr {
     box-shadow: 5px 5px 0px 0px black, 5px 5px 15px 5px rgba(0,0,0,0);
     background-color: papayawhip;
 }
-
-#vehicle-btn-car {
-text-decoration: none;
-text-align: center;
-position: fixed;
-width: 220px;
-height: 60px;
-font-size: 30px;
-font-family: calibri;
-border: 2px solid;
-border-radius: 40px;
-border-color: black;
-background: black;
-color: honeydew;
-transition: 0.5s;
-margin-top: 50px;
-margin-left: 250px;
-}
-
-#vehicle-btn-car:hover {
-    color: black;
-    background: honeydew;
-    border: 2px solid;
-}
-
-#vehicle-btn-bike {
-    text-decoration: none;
-    text-align: center;
-    position: fixed;
-    width: 220px;
-    height: 60px;
-    font-size: 30px;
-    font-family: calibri;
-    border: 2px solid;
-    border-radius: 40px;
-    border-color: black;
-    background: black;
-    color: honeydew;
-    transition: 0.5s;
-    margin-left: 1000px;
-}
-
-    #vehicle-btn-bike:hover {
-        color: black;
-        background: honeydew;
-        border: 2px solid;
-    }
