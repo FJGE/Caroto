@@ -35,14 +35,25 @@ body {
 
 .title-logo {
     background-image: url(../logo.png);
-    width: 400px;
-    height: 280px;
+    width: 350px;
+    height: 250px;
     background-position: center center;
-    background-size: auto;
+    background-size: 100%;
     background-repeat: no-repeat;
-    margin: 30px;
+    margin: 50px;
     position: fixed;
+}
 
+.title-logo-Registro {
+    background-image: url(../logo.png);
+    width: 350px;
+    height: 250px;
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 50px;
+    padding-top: 50px;
+    position: fixed;
 }
 
 hr {
