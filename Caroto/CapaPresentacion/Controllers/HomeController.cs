@@ -38,6 +38,7 @@ namespace Caroto.Controllers
             return View(new LoginViewModel());
         }
 
+
         [HttpPost]
         public ActionResult Registro(LoginViewModel loginDataModel)
         {
