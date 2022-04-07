@@ -25,7 +25,7 @@ namespace Caroto.Controllers
                 CN_Usuarios u = new CN_Usuarios(); 
                 u.MostrarUsu();
 
-                return RedirectToAction("SegundaPagina");
+                return RedirectToAction("MenuSeleccionVehiculo");
             }
             else
             {
@@ -38,7 +38,6 @@ namespace Caroto.Controllers
             return View(new LoginViewModel());
         }
 
-
         [HttpPost]
         public ActionResult Registro(LoginViewModel loginDataModel)
         {
@@ -48,7 +47,7 @@ namespace Caroto.Controllers
                 u.MostrarUsu();
                 u.InsertarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
 
-                return RedirectToAction("SegundaPagina");
+                return RedirectToAction("MenuSeleccionVehiculo");
             }
             else
             {
@@ -56,7 +55,7 @@ namespace Caroto.Controllers
             }
         }
 
-        public ActionResult SegundaPagina()
+        public ActionResult MenuSeleccionVehiculo()
         {
             return View();
         }

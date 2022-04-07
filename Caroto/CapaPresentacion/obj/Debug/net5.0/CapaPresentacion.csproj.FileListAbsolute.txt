@@ -40,7 +40,6 @@ D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.RazorCoreGen
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\Registro.cshtml.g.cs
-D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\SegundaPagina.cshtml.g.cs
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - MainApp.cshtml.g.cs
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -112,3 +111,4 @@ D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresenta
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\ref\CapaPresentacion.dll
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.pdb
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.genruntimeconfig.cache
+D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\MenuSeleccionVehiculo.cshtml.g.cs

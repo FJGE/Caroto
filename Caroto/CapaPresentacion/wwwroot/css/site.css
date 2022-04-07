@@ -51,8 +51,7 @@ body {
     background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
-    margin: 50px;
-    padding-top: 50px;
+    margin: 100px 50px 50px 50px;
     position: fixed;
 }
 

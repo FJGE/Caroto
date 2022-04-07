@@ -16,7 +16,7 @@
         @Html.PasswordFor(x => x.Contraseña, new { @class = "form-control", id = "textBox", placeholder = "Contraseña", style = "margin: 250px 0px 0px 530px;" })
         @Html.ValidationMessageFor(x => x.Contraseña, null, new { @class = "text-danger", style = "margin: 300px 0px 0px 570px; position: fixed;" })
 
-        @Html.ActionLink("Iniciar Sesión", "SegundaPagina", "Home", null, new { id = "btn-general", style = "margin: 350px 0px 0px 560px;"})
+        @Html.ActionLink("Iniciar Sesión", "MenuSeleccionVehiculo", "Home", null, new { id = "btn-general", style = "margin: 350px 0px 0px 560px;"})
     </div>
 }
 
