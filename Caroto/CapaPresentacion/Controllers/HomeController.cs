@@ -20,8 +20,6 @@ namespace Caroto.Controllers
         [HttpPost]
         public ActionResult Index(LoginViewModel loginDataModel)
         {
-            
-
             if (ModelState.IsValid)
             {
                 CN_Usuarios u = new CN_Usuarios(); 
@@ -34,13 +32,11 @@ namespace Caroto.Controllers
                 return View(loginDataModel);
             }
         }
-
-        public ActionResult SegundaPagina()
+        public ActionResult Registro()
         {
-            return View();
+            return View(new LoginViewModel());
         }
-
-        [HttpPost]
+            [HttpPost]
         public ActionResult Registro(LoginViewModel loginDataModel)
         {
             if (ModelState.IsValid)
@@ -56,5 +52,12 @@ namespace Caroto.Controllers
                 return View(loginDataModel);
             }
         }
+
+        public ActionResult SegundaPagina()
+        {
+            return View();
+        }
+
+        
     }
 }
