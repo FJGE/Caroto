@@ -22,6 +22,7 @@ body {
 }
 
 .box-large {
+    margin-top: 30px;
     margin-left: 200px;
     position: fixed;
     border: 2px solid;
@@ -115,4 +116,48 @@ hr {
     -webkit-box-shadow: 5px 5px 0px 0px #289FED, 5px 5px 15px 5px rgba(0,0,0,0);
     box-shadow: 5px 5px 0px 0px black, 5px 5px 15px 5px rgba(0,0,0,0);
     background-color: papayawhip;
+}
+
+.vehiculo-img-coche {
+    background-image: url(../Imagenes/coche.png);
+    width: 500px;
+    height: 400px;
+}
+
+.vehiculo-img-coche {
+    background-image: url(../Imagenes/coche.png);
+    background-position: center center;
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.vehiculo-img-moto {
+    background-image: url(../Imagenes/moto.png);
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-left: 950px;
+    margin-top: -390px;
+    margin-bottom: 90px;
+}
+
+#titleNav {
+    position: fixed;
+    font-size: 25px;
+    color: black;
+    margin-left: -380px;
+    margin-top: 0px;
+    text-decoration: none;
+    cursor: pointer;
+    position: fixed;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+#titleNav:hover {
+    color: indianred;
 }
