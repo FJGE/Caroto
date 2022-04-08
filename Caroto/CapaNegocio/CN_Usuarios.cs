@@ -1,4 +1,5 @@
 ﻿using CapaDatos;
+using MySql.Data.MySqlClient;
 using System;
 using System.Data;
 
@@ -13,9 +14,10 @@ namespace CapaNegocio
             tabla = objetoCD.Mostrar();
             return tabla;
         }
+        
+
         public void InsertarUsu(string correo, string contraseña)
         {
-
             objetoCD.Insertar(correo, contraseña);
         }
 
