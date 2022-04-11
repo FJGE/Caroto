@@ -12,6 +12,7 @@ D:\Caroto\Caroto\CapaNegocio\obj\Debug\net5.0\CapaNegocio.csproj.CopyComplete
 D:\Caroto\Caroto\CapaNegocio\obj\Debug\net5.0\CapaNegocio.dll
 D:\Caroto\Caroto\CapaNegocio\obj\Debug\net5.0\ref\CapaNegocio.dll
 D:\Caroto\Caroto\CapaNegocio\obj\Debug\net5.0\CapaNegocio.pdb
+D:\Caroto\Caroto\CapaNegocio\bin\Debug\net5.0\CapaDatos.pdb
 D:\DAW\Programacion\Caroto\Caroto\CapaNegocio\bin\Debug\net5.0\CapaNegocio.deps.json
 D:\DAW\Programacion\Caroto\Caroto\CapaNegocio\bin\Debug\net5.0\CapaNegocio.dll
 D:\DAW\Programacion\Caroto\Caroto\CapaNegocio\bin\Debug\net5.0\ref\CapaNegocio.dll
@@ -27,4 +28,3 @@ D:\DAW\Programacion\Caroto\Caroto\CapaNegocio\obj\Debug\net5.0\CapaNegocio.cspro
 D:\DAW\Programacion\Caroto\Caroto\CapaNegocio\obj\Debug\net5.0\CapaNegocio.dll
 D:\DAW\Programacion\Caroto\Caroto\CapaNegocio\obj\Debug\net5.0\ref\CapaNegocio.dll
 D:\DAW\Programacion\Caroto\Caroto\CapaNegocio\obj\Debug\net5.0\CapaNegocio.pdb
-D:\Caroto\Caroto\CapaNegocio\bin\Debug\net5.0\CapaDatos.pdb
