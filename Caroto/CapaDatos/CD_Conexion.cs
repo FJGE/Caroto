@@ -34,7 +34,7 @@ namespace CapaDatos
         {
             var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-            var db = builder.Build().GetSection("ConnectionStrings").GetSection("BasdeDatos").Value;
+            var db = builder.Build().GetSection("ConnectionStrings").GetSection("BasedeDatos2").Value;
 
             Conexion = new SqlConnection(db);
         }
