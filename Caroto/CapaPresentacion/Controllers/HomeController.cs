@@ -97,7 +97,5 @@ namespace Caroto.Controllers
         {
             return View();
         }
-
-        
     }
 }
