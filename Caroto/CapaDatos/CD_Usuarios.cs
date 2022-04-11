@@ -24,6 +24,19 @@ namespace CapaDatos
             return tabla;
 
         }
+        public DataTable MostrarBD(string correo, string contraseña)
+        {
+
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "select correo,contraseña from Usuario where correo = " + "'" + correo + "'" + " AND " + " contraseña = " + "'" + contraseña + "'";
+            comando.CommandTimeout = 2;
+            comando.CommandType = CommandType.Text;
+            leer = comando.ExecuteReader();
+            tabla.Load(leer);
+            conexion.CerrarConexion();
+            return tabla;
+
+        }
         public void Insertar(string correo, string contraseña)
         {
             comando.Connection = conexion.AbrirConexion();

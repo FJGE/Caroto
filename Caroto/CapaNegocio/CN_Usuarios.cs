@@ -14,8 +14,12 @@ namespace CapaNegocio
             tabla = objetoCD.Mostrar();
             return tabla;
         }
-        
-
+        public DataTable ComprobarUsu(string correo, string contraseña)
+        {
+            DataTable tabla = new DataTable();
+            tabla = objetoCD.MostrarBD(correo, contraseña);
+            return tabla;
+        }
         public void InsertarUsu(string correo, string contraseña)
         {
             objetoCD.Insertar(correo, contraseña);

@@ -21,3 +21,4 @@ D:\DAW\Programacion\Caroto\Caroto\CapaDatos\obj\Debug\net5.0\CapaDatos.csproj.Co
 D:\DAW\Programacion\Caroto\Caroto\CapaDatos\obj\Debug\net5.0\CapaDatos.dll
 D:\DAW\Programacion\Caroto\Caroto\CapaDatos\obj\Debug\net5.0\ref\CapaDatos.dll
 D:\DAW\Programacion\Caroto\Caroto\CapaDatos\obj\Debug\net5.0\CapaDatos.pdb
+D:\DAW\Programacion\Caroto\Caroto\CapaDatos\obj\Debug\net5.0\CapaDatos.csproj.AssemblyReference.cache

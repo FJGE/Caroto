@@ -35,7 +35,41 @@ namespace Caroto.Controllers
             }
         }
 
-        
+        public ActionResult Login()
+        {
+            return View(new LoginViewModel());
+        }
+
+        [HttpPost]
+        public ActionResult Login(LoginViewModel loginDataModel)
+        {
+            LoginViewModel bdusu = new LoginViewModel();
+            try
+            {
+                CN_Usuarios u = new CN_Usuarios();
+                DataTable busu = u.ComprobarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
+                u.ComprobarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
+
+                DataRow linea = busu.Rows[0];
+                bdusu.Correo = linea.Field<string>(0);
+                bdusu.Contraseña = linea.Field<string>(1);
+
+
+                if (loginDataModel.Correo == bdusu.Correo && loginDataModel.Contraseña == bdusu.Contraseña)
+                {
+                    return RedirectToAction("MenuSeleccionVehiculo");
+                }
+                else
+                {
+                    return RedirectToAction("Registro");
+                }
+            }
+            catch (Exception ex)
+            {
+                string error = ex.Message;
+                return View(loginDataModel);
+            }
+        }
 
         public ActionResult Registro()
         {
