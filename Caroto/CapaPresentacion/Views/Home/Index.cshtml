@@ -8,17 +8,14 @@
 
         @Html.ActionLink("Registrarse", "Registro", "Home", null, new { id = "btn-general", style = "margin: 320px 0px 0px 120px;" })
         <hr>
-        @Html.LabelFor(x => x.Correo, new { @class = "", id = "title", style = "margin: 30px 0px 0px 500px;" })
-        @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", id = "textBox", placeholder = "Email", style = "margin: 100px 0px 0px 530px;" })
+        @Html.LabelFor(x => x.Correo, new { @class = "", id = "title", style = "margin: 30px 0px 0px 520px;" })
+        @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", id = "textBox", placeholder = "Email", style = "margin: 100px 0px 0px 540px;" })
         @Html.ValidationMessageFor(x => x.Correo, null, new { @class = "text-danger", style = "margin: 150px 0px 0px 570px; position: fixed;" })
 
-        @Html.LabelFor(x => x.Contraseña, new { @class = "", id = "title", style = "margin: 180px 0px 0px 500px;" })
-        @Html.PasswordFor(x => x.Contraseña, new { @class = "form-control", id = "textBox", placeholder = "Contraseña", style = "margin: 250px 0px 0px 530px;" })
+        @Html.LabelFor(x => x.Contraseña, new { @class = "", id = "title", style = "margin: 180px 0px 0px 520px;" })
+        @Html.PasswordFor(x => x.Contraseña, new { @class = "form-control", id = "textBox", placeholder = "Contraseña", style = "margin: 250px 0px 0px 540px;" })
         @Html.ValidationMessageFor(x => x.Contraseña, null, new { @class = "text-danger", style = "margin: 300px 0px 0px 570px; position: fixed;" })
 
-        @Html.ActionLink("Iniciar Sesión", "MenuSeleccionVehiculo", "Home", null, new { id = "btn-general", style = "margin: 350px 0px 0px 560px;"})
+        @Html.ActionLink("Iniciar Sesión", "MenuSeleccionVehiculo", "Home", null, new { id = "btn-general", style = "margin: 350px 0px 0px 560px;", onclick="javascript:document.forms[0].submit();return false;" })
     </div>
 }
-
-
-@*javascript:document.forms[0].sumbit()         Funcion para el boton iniciar sesión*@

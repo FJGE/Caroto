@@ -161,3 +161,8 @@ hr {
 #titleNav:hover {
     color: indianred;
 }
+
+.nav-item {
+    color: black !important;
+    padding: 5px 50px 5px 0px !important;
+}
