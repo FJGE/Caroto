@@ -7,6 +7,8 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using CapaNegocio;
+using System.Data;
+using MySql.Data.MySqlClient;
 
 namespace Caroto.Controllers
 {
@@ -32,6 +34,8 @@ namespace Caroto.Controllers
                 return View(loginDataModel);
             }
         }
+
+        
 
         public ActionResult Registro()
         {
