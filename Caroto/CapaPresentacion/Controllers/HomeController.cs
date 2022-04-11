@@ -22,12 +22,35 @@ namespace Caroto.Controllers
         [HttpPost]
         public ActionResult Index(LoginViewModel loginDataModel)
         {
+            LoginViewModel bdusu = new LoginViewModel();
             if (ModelState.IsValid)
             {
-                CN_Usuarios u = new CN_Usuarios(); 
-                u.MostrarUsu();
+                try
+                {
+                    CN_Usuarios u = new CN_Usuarios();
+                    DataTable busu = u.ComprobarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
+                    u.ComprobarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
+                    if (busu.Rows.Count > 0)
+                    {
+                        DataRow linea = busu.Rows[0];
+                        bdusu.Correo = linea.Field<string>(0);
+                        bdusu.Contraseña = linea.Field<string>(1);
+                    }
 
-                return RedirectToAction("MenuSeleccionVehiculo");
+                    if (loginDataModel.Correo == bdusu.Correo && loginDataModel.Contraseña == bdusu.Contraseña)
+                    {
+                        return RedirectToAction("MenuSeleccionVehiculo");
+                    }
+                    else
+                    {
+                        return RedirectToAction("Registro");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    string error = ex.Message;
+                    return View(loginDataModel);
+                }
             }
             else
             {
