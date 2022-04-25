@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaPresentacion.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -26,5 +27,7 @@ namespace Caroto.Models
         [Display(Name = "Elija su Vehiculo")]
         [DataType(DataType.Text)]
         public string Title{ get; set; }
+
+        public List<Vehiculo> ve = new List<Vehiculo>();
     }
 }
