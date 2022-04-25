@@ -85,5 +85,15 @@ namespace Caroto.Controllers
         {
             return View();
         }
+
+        public ActionResult MenuGammasCoche()
+        {
+            return View();
+        }
+
+        public ActionResult MenuGammasMoto()
+        {
+            return View();
+        }
     }
 }

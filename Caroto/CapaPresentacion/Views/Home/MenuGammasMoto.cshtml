@@ -1,0 +1,15 @@
+﻿@model GammaViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout - MainApp.cshtml";
+}
+<h1 id="title" style="margin-left: 600px; margin-top: 40px; font-size: 35px;">@Html.LabelFor(x => x.Title1)</h1>
+<div class="vehiculo-img-coche"></div>
+<br />
+<br />
+@Html.ActionLink("Coches", "", "Home", null, new { id = "btn-general", style = "margin: 50px 0px 0px 250px;" })
+<hr class="hr-box-large">
+<div class="vehiculo-img-moto"></div>
+<br />
+<br />
+@Html.ActionLink("Motos", "", "Home", null, new { id = "btn-general", style = "margin: 0px 0px 0px 1020px;" })

@@ -43,7 +43,7 @@ namespace CapaDatos
             comando.CommandText = "InsertarUsuarios";
             comando.CommandType = CommandType.StoredProcedure;
             comando.Parameters.AddWithValue("@correo", correo);
-            comando.Parameters.AddWithValue("@contraseña", contraseña);
+            comando.Parameters.AddWithValue("@contrasena", contraseña);
 
             
             comando.ExecuteNonQuery();
@@ -59,7 +59,7 @@ namespace CapaDatos
             comando.CommandText = "EditarUsuario";
             comando.CommandType = CommandType.StoredProcedure;
             comando.Parameters.AddWithValue("@correo", correo);
-            comando.Parameters.AddWithValue("@contraseña", contraseña);
+            comando.Parameters.AddWithValue("@contrasena", contraseña);
 
             comando.ExecuteNonQuery();
 

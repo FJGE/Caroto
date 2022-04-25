@@ -134,3 +134,5 @@ D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.dll
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\ref\CapaPresentacion.dll
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.pdb
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.genruntimeconfig.cache
+D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\MenuGammasCoche.cshtml.g.cs
+D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\MenuGammasMoto.cshtml.g.cs
