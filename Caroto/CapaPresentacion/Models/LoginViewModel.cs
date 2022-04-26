@@ -1,5 +1,4 @@
-﻿using Caroto.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -23,5 +22,9 @@ namespace Caroto.Models
                       MinimumLength = 8)]
         [DataType(DataType.Password)]
         public string Contraseña { get; set; }
+
+        [Display(Name = "Elija su Vehiculo")]
+        [DataType(DataType.Text)]
+        public string Title{ get; set; }
     }
 }
