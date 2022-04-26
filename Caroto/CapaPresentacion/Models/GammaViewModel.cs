@@ -19,8 +19,5 @@ namespace Caroto.Models
         [Display(Name = "Gama Alta")]
         [DataType(DataType.Text)]
         public string Title3 { get; set; }
-
-        public List<VehiculoViewModel> Coches = new List<VehiculoViewModel>();
-        public List<VehiculoViewModel> Motos = new List<VehiculoViewModel>();
     }
 }

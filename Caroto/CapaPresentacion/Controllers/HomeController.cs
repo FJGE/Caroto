@@ -88,12 +88,44 @@ namespace Caroto.Controllers
 
         public ActionResult MenuGammasCoche()
         {
-            return View();
+            return View(new GammaViewModel());
+        }
+
+        [HttpPost]
+        public ActionResult MenuGammasCoche(GammaViewModel Gamma)
+        {
+            if (ModelState.IsValid)
+            {
+                CN_Gamma u = new CN_Gamma();
+                u.MostrarGamma();
+
+                return RedirectToAction("MenuGammasCoche");
+            }
+            else
+            {
+                return View(Gamma);
+            }
         }
 
         public ActionResult MenuGammasMoto()
         {
-            return View();
+            return View(new GammaViewModel());
+        }
+
+        [HttpPost]
+        public ActionResult MenuGammasMoto(GammaViewModel Gamma)
+        {
+            if (ModelState.IsValid)
+            {
+                CN_Gamma u = new CN_Gamma();
+                u.MostrarGamma();
+
+                return RedirectToAction("MenuGammasMoto");
+            }
+            else
+            {
+                return View(Gamma);
+            }
         }
     }
 }
