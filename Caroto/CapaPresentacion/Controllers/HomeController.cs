@@ -96,10 +96,26 @@ namespace Caroto.Controllers
         {
             if (ModelState.IsValid)
             {
-                CN_Gamma u = new CN_Gamma();
-                u.MostrarGamma();
+                CN_Vehiculo veh = new CN_Vehiculo();
+                DataTable table = u.ComprobarUsu(GammaViewModel.Correo, loginDataModel.Contraseña);
+                u.ComprobarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
+                if (busu.Rows.Count > 0)
+                {
+                    DataRow linea = busu.Rows[0];
+                    bdusu.Correo = linea.Field<string>(0);
+                    bdusu.Contraseña = linea.Field<string>(1);
+                }
 
-                return RedirectToAction("MenuGammasCoche");
+                if (loginDataModel.Correo == bdusu.Correo && loginDataModel.Contraseña == bdusu.Contraseña)
+                {
+                    return RedirectToAction("MenuGammasCoche");
+                }
+                else
+                {
+                    return RedirectToAction("Registro");
+                }
+
+                
             }
             else
             {
