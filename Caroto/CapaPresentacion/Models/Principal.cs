@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Caroto.Models
 {
-    public class LoginViewModel
+    public class Principal
     {
         [Display(Name = "Correo electrónico")]
         [Required(ErrorMessage = "Este campo es requerido.")]

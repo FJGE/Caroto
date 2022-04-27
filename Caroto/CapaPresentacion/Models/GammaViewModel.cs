@@ -8,16 +8,13 @@ namespace Caroto.Models
 {
     public class GammaViewModel
     {
-        [Display(Name = "Gama Baja")]
+        [Display(Name = "Elija su Vehiculo")]
         [DataType(DataType.Text)]
-        public string Title1 { get; set; }
+        public string TitleMenuVehiculo { get; set; }
 
-        [Display(Name = "Gama Media")]
-        [DataType(DataType.Text)]
-        public string Title2 { get; set; }
-
-        [Display(Name = "Gama Alta")]
-        [DataType(DataType.Text)]
-        public string Title3 { get; set; }
+        public string matricula { get; set; }
+        public int id { get; set; }
+        public string Clase { get; set; }
+        public int precio { get; set; }
     }
 }
