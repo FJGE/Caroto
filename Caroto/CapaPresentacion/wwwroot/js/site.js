@@ -4,12 +4,12 @@
 // Write your JavaScript code.
 
 function cambiarStyle() {
-    var element = document.getElementById("asdasd");
+    var elemento = document.getElementById("H1");
 
-    if (element.className == "visible") {
-        element.className = "invisible";
+    if (elemento.className == "visible") {
+        elemento.className = "invisible";
     }
-    else if (element.className == "invisible") {
-        element.className = "visible";
+    else if (elemento.className == "invisible") {
+        elemento.className = "visible";
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SM09kOJaHwIw6QyvupGBncgGN1M3SqPbAI899mf6Uv++MipD44bna5hWoAHhhyhyMl5bm0QY+PBmLUzbhEKZJw==",
+  "dgSpecHash": "8f8uy9IQeiTJp84ZCJr6vuxZEVL8mLDEdzu6HzQq3Yab6PpvLJRCB4WdoPfYbTcOCyJZlCgL8CDzR6z00Hpmfw==",
   "success": true,
-  "projectFilePath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj",
+  "projectFilePath": "D:\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1DAW\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\1DAW\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
