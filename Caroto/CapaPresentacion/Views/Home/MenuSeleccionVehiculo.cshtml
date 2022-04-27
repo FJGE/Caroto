@@ -1,10 +1,10 @@
-﻿@model VehiculoViewModel
+﻿@model GammaViewModel
 
 
 @{ 
     Layout = "~/Views/Shared/_Layout - MainApp.cshtml";
 }
-    <h1 id="title" style="margin-left: 600px; margin-top: 40px; font-size: 35px;">@Html.LabelFor(x => x.Title)</h1>
+    <h1 id="title" style="margin-left: 600px; margin-top: 40px; font-size: 35px;">@Html.LabelFor(x => x.TitleMenuVehiculo)</h1>
     <div class="vehiculo-img-coche"></div>
     <br /><br />
     @Html.ActionLink("Coches", "MenuGammasCoche", "Home", null, new { id = "btn-general", style="margin: 50px 0px 0px 250px;"})

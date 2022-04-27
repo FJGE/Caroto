@@ -20,9 +20,9 @@ namespace Caroto.Controllers
         }
 
         [HttpPost]
-        public ActionResult Index(LoginViewModel loginDataModel)
+        public ActionResult Index(Principal loginDataModel)
         {
-            LoginViewModel bdusu = new LoginViewModel();
+            Principal bdusu = new Principal();
             if (ModelState.IsValid)
             {
                 try
@@ -61,11 +61,11 @@ namespace Caroto.Controllers
 
         public ActionResult Registro()
         {
-            return View(new LoginViewModel());
+            return View(new Principal());
         }
 
         [HttpPost]
-        public ActionResult Registro(LoginViewModel loginDataModel)
+        public ActionResult Registro(Principal loginDataModel)
         {
             if (ModelState.IsValid)
             {
@@ -135,6 +135,7 @@ namespace Caroto.Controllers
             {
                 CN_Gamma u = new CN_Gamma();
                 u.MostrarGamma();
+                
 
                 return RedirectToAction("MenuGammasMoto");
             }
