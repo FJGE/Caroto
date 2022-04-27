@@ -9,7 +9,7 @@ body {
 }
 
 .box {
-    margin-left: -300px;
+    margin-left: -250px;
     margin-top: 200px;
     position: fixed;
     border: 2px solid;
@@ -149,7 +149,7 @@ hr {
     position: fixed;
     font-size: 25px;
     color: black;
-    margin-left: -380px;
+    margin-left: -300px;
     margin-top: 0px;
     text-decoration: none;
     cursor: pointer;
