@@ -26,5 +26,6 @@ namespace Caroto.Models
         [Display(Name = "Elija su Vehiculo")]
         [DataType(DataType.Text)]
         public string Title{ get; set; }
+
     }
 }
