@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using CapaNegocio;
+using CapaDatos;
 using System.Data;
 using MySql.Data.MySqlClient;
 
@@ -88,53 +89,39 @@ namespace Caroto.Controllers
 
         public ActionResult MenuGammasCoche()
         {
-            return View(new GammaViewModel());
-        }
+            CN_Coche car = new CN_Coche();
+            DataTable carTable = car.MostrarProd();
+            AllList lista1 = new AllList();
 
-        [HttpPost]
-        public ActionResult MenuGammasCoche(GammaViewModel gamma)
-        {
-            Principal princ = new Principal();
-            if (ModelState.IsValid)
-            {
-                CN_Vehiculo veh = new CN_Vehiculo();
-                DataTable table = veh.MostrarVeh();
-                veh.MostrarVeh();
-                if (table.Rows.Count > 0)
-                {
-                    DataRow linea = table.Rows[0];
-                    princ.Correo = linea.Field<string>(0);
-                    princ.Contraseña = linea.Field<string>(1);
-                }
-
-                return RedirectToAction("MenuGammasCoche");
-            }
-            else
-            {
-                return View(gamma);
-            }
+            return View(lista1);
         }
 
         public ActionResult MenuGammasMoto()
         {
-            return View(new GammaViewModel());
+            CN_Moto motorbike = new CN_Moto();
+            DataSet bikeTable = motorbike.MostrarProd();
+            AllList lista1 = new AllList();
+            lista1.MotosBajas = listademotos(bikeTable.Tables[0]);
+            lista1.MotosMedias = listademotos(bikeTable.Tables[1]);
+            lista1.MotosAltas= listademotos(bikeTable.Tables[2]);
+
+            
+
+            return View(lista1);
+
+            
         }
-
-        [HttpPost]
-        public ActionResult MenuGammasMoto(GammaViewModel Gamma)
+        private List<GammaViewModel> listademotos(DataTable bikeTable)
         {
-            if (ModelState.IsValid)
+            List<GammaViewModel> gm = new List<GammaViewModel>();
+            foreach (DataRow a in bikeTable.Rows)
             {
-                CN_Gamma u = new CN_Gamma();
-                u.MostrarGamma();
-                
+                GammaViewModel bikeView = new GammaViewModel();
+                bikeView.matricula = (string)a["Matricula"];
 
-                return RedirectToAction("MenuGammasMoto");
+                gm.Add(bikeView);
             }
-            else
-            {
-                return View(Gamma);
-            }
+            return gm;
         }
     }
 }

@@ -14,7 +14,5 @@ namespace Caroto.Models
 
         public string matricula { get; set; }
         public int id { get; set; }
-        public string Clase { get; set; }
-        public int precio { get; set; }
     }
 }
