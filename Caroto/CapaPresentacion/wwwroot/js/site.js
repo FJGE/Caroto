@@ -3,8 +3,8 @@
 
 // Write your JavaScript code.
 
-function cambiarStyle() {
-    var elemento = document.getElementById("H1");
+function cambiarStyle(variable) {
+    var elemento = document.getElementById("H" + variable);
 
     if (elemento.className == "visible") {
         elemento.className = "invisible";

@@ -166,3 +166,19 @@ hr {
     color: black !important;
     padding: 5px 50px 5px 0px !important;
 }
+
+.card {
+    margin: 30px !important;
+}
+
+#H1 {
+    display: none;
+}
+
+#H2 {
+    display: none;
+}
+
+#H3 {
+    display: none;
+}

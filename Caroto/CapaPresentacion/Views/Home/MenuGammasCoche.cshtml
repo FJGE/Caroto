@@ -1,4 +1,4 @@
-﻿@model GammaViewModel
+﻿@model AllList
 
 @{
     Layout = "~/Views/Shared/_Layout - MainApp.cshtml";
@@ -10,7 +10,14 @@
 </button>
 
 <div class="invisible" id="H1">
-    HOLA A TODOS
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        @foreach (var item in Model.CochesBajos)
+        {
+            <div class="card">
+                @Html.DisplayFor(modelItem => item.matricula)
+            </div>
+        }
+    </div>
 </div>
 
 <button style="width: 30px; height: 30px; margin-top: 105px; position: fixed; background-color: transparent; border: 0px; margin-left: 10px;">
