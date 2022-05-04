@@ -71,7 +71,6 @@ namespace Caroto.Controllers
             if (ModelState.IsValid)
             {
                 CN_Usuarios u = new CN_Usuarios();
-                u.MostrarUsu();
                 u.InsertarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
 
                 return RedirectToAction("MenuSeleccionVehiculo");
