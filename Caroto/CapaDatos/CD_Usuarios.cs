@@ -9,11 +9,12 @@ namespace CapaDatos
     public class CD_Usuarios
     {
         private CD_Conexion conexion = new CD_Conexion();
-        SqlDataReader leer;
-        DataTable tabla = new DataTable();
-        SqlCommand comando = new SqlCommand();
+        
         public DataTable Mostrar()
         {
+            SqlDataReader leer;
+            DataTable tabla = new DataTable();
+            SqlCommand comando = new SqlCommand();
 
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "MostrarUsuarios";
@@ -26,6 +27,9 @@ namespace CapaDatos
         }
         public DataTable MostrarBD(string correo, string contraseña)
         {
+            SqlDataReader leer;
+            DataTable tabla = new DataTable();
+            SqlCommand comando = new SqlCommand();
 
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "select correo,contraseña from Usuario where correo = " + "'" + correo + "'" + " AND " + " contraseña = " + "'" + contraseña + "'";
@@ -39,6 +43,8 @@ namespace CapaDatos
         }
         public void Insertar(string correo, string contraseña)
         {
+            SqlCommand comando = new SqlCommand();
+
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "InsertarUsuarios";
             comando.CommandType = CommandType.StoredProcedure;
@@ -55,6 +61,8 @@ namespace CapaDatos
 
         public void Editar(string correo, string contraseña)
         {
+            SqlCommand comando = new SqlCommand();
+
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "EditarUsuario";
             comando.CommandType = CommandType.StoredProcedure;
@@ -68,6 +76,8 @@ namespace CapaDatos
         }
         public void Eliminar(string correo)
         {
+            SqlCommand comando = new SqlCommand();
+
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "EliminarUsuario";
             comando.CommandType = CommandType.StoredProcedure;
