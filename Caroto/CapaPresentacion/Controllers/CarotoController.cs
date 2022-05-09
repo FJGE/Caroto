@@ -13,9 +13,13 @@ namespace CapaPresentacion.Controllers
         {
             Principal prin = new Principal();
 
-            prin.TituloPrin = "Caroto";
-            prin.Titulo = "Iniciar Sesión";
+            prin.Caroto = "Caroto";
             prin.Descripcion = "Tienda Web para comprar y personalizar el Vehiculo que quieras";
+            prin.Iniciar_Sesion = "Iniciar Sesión";
+            prin.Productos = "Productos";
+            prin.Sobre_Nosotros = "Sobre Nosotros";
+            prin.Descripcion2 = "Somos una tienda web dedicada a la venta de vehiculos personalizados por los usuarios para que puedan comprar el coche de sus sueños.<br><br>Elige tu Coche o Moto disponible entre una serie de gamas.<br><br> Añadele las piezas para hacer de tu vehiculo una experiencia unica";
+
 
             Secundaria sec1 = new Secundaria();
             Secundaria sec2 = new Secundaria();

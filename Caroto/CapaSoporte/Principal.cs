@@ -22,9 +22,12 @@ namespace CapaSoporte
         [DataType(DataType.Password)]
         public string Contraseña { get; set; }
 
-        public string TituloPrin { get; set; }
-        public string Titulo { get; set; }
+        public string Caroto { get; set; }
         public string Descripcion { get; set; }
+        public string Iniciar_Sesion { get; set; }
+        public string Productos { get; set; }
+        public string Sobre_Nosotros { get; set; }
+        public string Descripcion2 { get; set; }
 
         public List<Secundaria> secun { get; set; }
     }

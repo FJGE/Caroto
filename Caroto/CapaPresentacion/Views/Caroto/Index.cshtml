@@ -4,7 +4,7 @@
 {
     <section id="hero">
         <div class="text">
-            <h1>@Model.TituloPrin</h1>
+            <h1>@Model.Caroto</h1>
             <p>@Model.Descripcion</p>
             <div class="buttons">
                 @Html.ActionLink("Iniciar Sesión", "", "Caroto", null, new { @class = "logButton", onclick = "showLog();return false;", style = "text-decoration: none;" })
@@ -15,7 +15,7 @@
 
     <div id="logWindow">
         <div class="popup">
-            <h1>@Model.Titulo</h1>
+            <h1>@Model.Iniciar_Sesion</h1>
             <div class="XBtn" onclick="closeLog()">&#10060;</div>
             @Html.LabelFor(x => x.Correo, new { })
             @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", placeholder = "Correo" })
@@ -30,7 +30,7 @@
 
     <section id="productos">
         <div class="container">
-            <h2>Productos</h2>
+            <h2>@Model.Productos</h2>
             <div class="card-container">
                 @foreach (var a in Model.secun)
                 {
@@ -47,8 +47,8 @@
     <section id="sobre-nosotros">
         <div class="container">
             <div class="text">
-                <h3>Sobre Nosotros</h3>
-                <p>Somos una tienda web dedicada a la venta de vehiculos personalizados por los usuarios para que puedan comprar el coche de sus sueños.<br><br>Elige tu Coche o Moto disponible entre una serie de gamas.<br><br> Añadele las piezas para hacer de tu vehiculo una experiencia unica</p>
+                <h3>@Model.Sobre_Nosotros</h3>
+                <p>@Model.Descripcion2</p>
             </div>
             <div class="img-container"></div>
         </div>
