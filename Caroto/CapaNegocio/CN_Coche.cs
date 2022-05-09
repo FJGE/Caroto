@@ -10,12 +10,31 @@ namespace CapaNegocio
 {
     public class CN_Coche
     {
-        private CD_Coche objetoCD = new CD_Coche();
-        public DataTable MostrarProd()
+        enum TipoGamma : int
         {
-            DataTable tabla = new DataTable();
-            tabla = objetoCD.Mostrar();
-            return tabla;
+            Alta = 3,
+            Media = 2,
+            Baja = 1
+        }
+
+        private CD_Moto objetoCD = new CD_Moto();
+        public DataSet MostrarProd()
+        {
+            DataSet Ds = new DataSet();
+
+            DataTable Alta = new DataTable();
+            DataTable Media = new DataTable();
+            DataTable Baja = new DataTable();
+
+            Alta = objetoCD.Mostrar((int)TipoGamma.Alta);
+            Media = objetoCD.Mostrar((int)TipoGamma.Media);
+            Baja = objetoCD.Mostrar((int)TipoGamma.Baja);
+
+            Ds.Tables.Add(Alta);
+            Ds.Tables.Add(Media);
+            Ds.Tables.Add(Baja);
+
+            return Ds;
         }
     }
 }

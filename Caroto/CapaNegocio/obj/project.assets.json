@@ -480,6 +480,16 @@
         "runtime": {
           "bin/placeholder/CapaDatos.dll": {}
         }
+      },
+      "CapaSoporte/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CapaSoporte.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaSoporte.dll": {}
+        }
       }
     }
   },
@@ -1410,11 +1420,17 @@
       "type": "project",
       "path": "../CapaDatos/CapaDatos.csproj",
       "msbuildProject": "../CapaDatos/CapaDatos.csproj"
+    },
+    "CapaSoporte/1.0.0": {
+      "type": "project",
+      "path": "../CapaSoporte/CapaSoporte.csproj",
+      "msbuildProject": "../CapaSoporte/CapaSoporte.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "CapaDatos >= 1.0.0",
+      "CapaSoporte >= 1.0.0",
       "Microsoft.Extensions.Configuration.Json >= 5.0.0",
       "MySql.Data >= 8.0.28"
     ]
@@ -1453,6 +1469,9 @@
           "projectReferences": {
             "D:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {
               "projectPath": "D:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj"
+            },
+            "D:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj": {
+              "projectPath": "D:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj"
             }
           }
         }

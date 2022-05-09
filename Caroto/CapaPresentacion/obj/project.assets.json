@@ -486,6 +486,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "CapaDatos": "1.0.0",
+          "CapaSoporte": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "5.0.0",
           "MySql.Data": "8.0.28"
         },
@@ -494,6 +495,16 @@
         },
         "runtime": {
           "bin/placeholder/CapaNegocio.dll": {}
+        }
+      },
+      "CapaSoporte/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CapaSoporte.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaSoporte.dll": {}
         }
       }
     }
@@ -1430,11 +1441,17 @@
       "type": "project",
       "path": "../CapaNegocio/CapaNegocio.csproj",
       "msbuildProject": "../CapaNegocio/CapaNegocio.csproj"
+    },
+    "CapaSoporte/1.0.0": {
+      "type": "project",
+      "path": "../CapaSoporte/CapaSoporte.csproj",
+      "msbuildProject": "../CapaSoporte/CapaSoporte.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "CapaNegocio >= 1.0.0",
+      "CapaSoporte >= 1.0.0",
       "Microsoft.Extensions.Configuration.Json >= 5.0.0"
     ]
   },
@@ -1472,6 +1489,9 @@
           "projectReferences": {
             "D:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj": {
               "projectPath": "D:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj"
+            },
+            "D:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj": {
+              "projectPath": "D:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj"
             }
           }
         }
