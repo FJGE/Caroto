@@ -87,9 +87,9 @@ namespace CapaPresentacion.Controllers
             DataSet carTable = car.MostrarProd();
             AllList lista1 = new AllList();
 
-            lista1.CochesBajos = listadecoches(carTable.Tables[0]);
+            lista1.CochesBajos = listadecoches(carTable.Tables[2]);
             lista1.CochesMedios = listadecoches(carTable.Tables[1]);
-            lista1.CochesAltos = listadecoches(carTable.Tables[2]);
+            lista1.CochesAltos = listadecoches(carTable.Tables[0]);
 
             return View(lista1);
         }
