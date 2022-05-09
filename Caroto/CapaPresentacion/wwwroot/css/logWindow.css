@@ -1,0 +1,66 @@
+﻿#logWindow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    z-index: 2;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+    background-color: white;
+    border-radius: 35px;
+    z-index: 2;
+}
+
+label {
+    text-align: start;
+    font-size: x-large;
+}
+
+input {
+    font-size: medium;
+    padding: 20px;
+    border-radius: 35px;
+    border: 2px solid black;
+    margin: 40px 0px 40px 0px;
+}
+
+.popup button {
+    margin: auto;
+    padding: 20px;
+    width: 250px;
+    border-radius: 35px;
+    border: 2px solid black;
+    font-size: large;
+    cursor: pointer;
+}
+
+.logWindow-show {
+    opacity: 1;
+    pointer-events: unset;
+}
+
+.XBtn {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 420px;
+    margin-top: -10px;
+    cursor: pointer;
+}

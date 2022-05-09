@@ -1,0 +1,57 @@
+﻿@model CapaSoporte.Principal
+
+@using (Html.BeginForm("Index", "Caroto", FormMethod.Post))
+{
+    <section id="hero">
+        <div class="text">
+            <h1>Caroto</h1>
+            <p>Tienda Web para comprar y personalizar el Vehiculo que quieras</p>
+            <div class="buttons">
+                @Html.ActionLink("Iniciar Sesión", "", "Caroto", null, new { @class="logButton", onclick="showLog();return false;", style="text-decoration: none;"})
+                @Html.ActionLink("Registrarse", "Registro", "Caroto", null, new { @class="regButton", style="text-decoration: none;"})
+            </div>
+        </div>
+    </section>
+    
+    <div id="logWindow">
+        <div class="popup">
+            <h1>Iniciar Sesión</h1>
+            <div class="XBtn" onclick="closeLog()">&#10060;</div>
+            @Html.LabelFor(x => x.Correo, new { })
+            @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", placeholder="Correo"})
+            @Html.ValidationMessageFor(x => x.Correo, null, new { @class = "text-danger" })
+
+            @Html.LabelFor(x => x.Contraseña, new { })
+            @Html.PasswordFor(x => x.Contraseña, new { @class = "form-control", placeholder="Contraseña"})
+            @Html.ValidationMessageFor(x => x.Contraseña, null, new { @class = "text-danger" })
+            <button type="submit">Iniciar Sesión</button>
+        </div>
+    </div>
+
+    <section id="productos">
+        <div class="container">
+            <h2>Productos</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Coches</h3>
+                    <p>Elige un coche y personalizalo con las piezas disponibles de tu agrado.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Motos</h3>
+                    <p>Elige un moto personalizala y presume de ella ante tus amigos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-nosotros">
+        <div class="container">
+            <div class="text">
+                <h3>Sobre Nosotros</h3>
+                <p>Somos una tienda web dedicada a la venta de vehiculos personalizados por los usuarios para que puedan comprar el coche de sus sueños.<br><br>Elige tu Coche o Moto disponible entre una serie de gamas.<br><br> Añadele las piezas para hacer de tu vehiculo una experiencia unica</p>
+            </div>
+            <div class="img-container"></div>
+        </div>
+    </section>
+}

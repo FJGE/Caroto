@@ -11,7 +11,6 @@ namespace CapaDatos
     public class CD_Moto
     {
         private CD_Conexion conexion = new CD_Conexion();
-       
         public DataTable Mostrar(int gamma)
         {
             SqlDataReader leer;

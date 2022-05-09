@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CapaDatos\CapaDatos.csproj" />
+    <ProjectReference Include="..\CapaSoporte\CapaSoporte.csproj" />
   </ItemGroup>
 
 </Project>

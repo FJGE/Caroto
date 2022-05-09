@@ -25,9 +25,9 @@ namespace CapaNegocio
             DataTable Media = new DataTable();
             DataTable Baja = new DataTable();
 
-            //Alta = objetoCD.Mostrar((int)TipoGamma.Alta);
+            Alta = objetoCD.Mostrar((int)TipoGamma.Alta);
             Media = objetoCD.Mostrar((int)TipoGamma.Media);
-            //Baja = objetoCD.Mostrar((int)TipoGamma.Baja);
+            Baja = objetoCD.Mostrar((int)TipoGamma.Baja);
 
             Ds.Tables.Add(Alta);
             Ds.Tables.Add(Media);
