@@ -10,3 +10,15 @@ D:\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.csproj.CoreCompileInpu
 D:\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.dll
 D:\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\ref\CapaSoporte.dll
 D:\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.pdb
+D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\bin\Debug\net5.0\CapaSoporte.deps.json
+D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\bin\Debug\net5.0\CapaSoporte.dll
+D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\bin\Debug\net5.0\ref\CapaSoporte.dll
+D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\bin\Debug\net5.0\CapaSoporte.pdb
+D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.csproj.AssemblyReference.cache
+D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.GeneratedMSBuildEditorConfig.editorconfig
+D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.AssemblyInfoInputs.cache
+D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.AssemblyInfo.cs
+D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.csproj.CoreCompileInputs.cache
+D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.dll
+D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\ref\CapaSoporte.dll
+D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.pdb

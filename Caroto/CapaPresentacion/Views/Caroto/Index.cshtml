@@ -4,27 +4,27 @@
 {
     <section id="hero">
         <div class="text">
-            <h1>Caroto</h1>
-            <p>Tienda Web para comprar y personalizar el Vehiculo que quieras</p>
+            <h1>@Model.TituloPrin</h1>
+            <p>@Model.Descripcion</p>
             <div class="buttons">
-                @Html.ActionLink("Iniciar Sesión", "", "Caroto", null, new { @class="logButton", onclick="showLog();return false;", style="text-decoration: none;"})
-                @Html.ActionLink("Registrarse", "Registro", "Caroto", null, new { @class="regButton", style="text-decoration: none;"})
+                @Html.ActionLink("Iniciar Sesión", "", "Caroto", null, new { @class = "logButton", onclick = "showLog();return false;", style = "text-decoration: none;" })
+                @Html.ActionLink("Registrarse", "Registro", "Caroto", null, new { @class = "regButton", style = "text-decoration: none;" })
             </div>
         </div>
     </section>
-    
+
     <div id="logWindow">
         <div class="popup">
-            <h1>Iniciar Sesión</h1>
+            <h1>@Model.Titulo</h1>
             <div class="XBtn" onclick="closeLog()">&#10060;</div>
             @Html.LabelFor(x => x.Correo, new { })
-            @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", placeholder="Correo"})
+            @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", placeholder = "Correo" })
             @Html.ValidationMessageFor(x => x.Correo, null, new { @class = "text-danger" })
 
             @Html.LabelFor(x => x.Contraseña, new { })
-            @Html.PasswordFor(x => x.Contraseña, new { @class = "form-control", placeholder="Contraseña"})
+            @Html.PasswordFor(x => x.Contraseña, new { @class = "form-control", placeholder = "Contraseña" })
             @Html.ValidationMessageFor(x => x.Contraseña, null, new { @class = "text-danger" })
-            <button type="submit">Iniciar Sesión</button>
+            @Html.ActionLink("Iniciar Sesión", "SeleccionVehiculo", "Caroto", null, new { @class = "popup a", onclick = "document.forms[0].submit();return false" })
         </div>
     </div>
 
@@ -32,15 +32,14 @@
         <div class="container">
             <h2>Productos</h2>
             <div class="card-container">
-                <div class="card">
-                    <h3>Coches</h3>
-                    <p>Elige un coche y personalizalo con las piezas disponibles de tu agrado.</p>
-                </div>
-                
-                <div class="card">
-                    <h3>Motos</h3>
-                    <p>Elige un moto personalizala y presume de ella ante tus amigos.</p>
-                </div>
+                @foreach (var a in Model.secun)
+                {
+                    <div class="card">
+                        <h3>@a.Titulo</h3>
+                        <p>@a.Descripcion</p>
+                    </div>
+                }
+
             </div>
         </div>
     </section>
@@ -54,4 +53,4 @@
             <div class="img-container"></div>
         </div>
     </section>
-}
+       }

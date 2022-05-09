@@ -11,17 +11,21 @@ namespace CapaSoporte
     {
         [Display(Name = "Correo electrónico")]
         [Required(ErrorMessage = "Este campo es requerido.")]
-        [RegularExpression(@"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*",
-            ErrorMessage = "Dirección de Correo incorrecta.")]
+        [RegularExpression(@"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*", ErrorMessage = "Dirección de Correo incorrecta.")]
         [StringLength(100, ErrorMessage = "Longitud máxima 100")]
         [DataType(DataType.EmailAddress)]
         public string Correo { get; set; }
 
         [Display(Name = "Contraseña")]
         [Required(ErrorMessage = "Este campo es requerido.")]
-        [StringLength(16, ErrorMessage = "Longitud entre 8 y 16 caracteres.",
-                      MinimumLength = 8)]
+        [StringLength(16, ErrorMessage = "Longitud entre 8 y 16 caracteres.", MinimumLength = 8)]
         [DataType(DataType.Password)]
         public string Contraseña { get; set; }
+
+        public string TituloPrin { get; set; }
+        public string Titulo { get; set; }
+        public string Descripcion { get; set; }
+
+        public List<Secundaria> secun { get; set; }
     }
 }
