@@ -14,7 +14,7 @@
                         @Html.LabelFor(x => x.Contraseña, new { })
                         @Html.PasswordFor(x => x.Contraseña, new { @class = "form-control", placeholder = "Contraseña" })
                         @Html.ValidationMessageFor(x => x.Contraseña, null, new { @class = "text-danger" })
-                        @Html.ActionLink("Crear", "SeleccionVehiculo", "Caroto", null, new { @class = "popup a", onclick = "document.forms[0].submit();return false" })
+                        @Html.ActionLink("Crear", "SeleccionVehiculo", "Caroto", null, new { @class = "popup a", style= "width: 200px;", onclick = "document.forms[0].submit();return false" })
                     </div>
                     <div class="img-container"></div>
                 </div>
