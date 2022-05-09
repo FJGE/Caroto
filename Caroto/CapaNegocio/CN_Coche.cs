@@ -17,7 +17,7 @@ namespace CapaNegocio
             Baja = 1
         }
 
-        private CD_Moto objetoCD = new CD_Moto();
+        private CD_Coche objetoCD = new CD_Coche();
         public DataSet MostrarProd()
         {
             DataSet Ds = new DataSet();

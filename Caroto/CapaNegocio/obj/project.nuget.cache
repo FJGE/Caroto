@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JdZc0yHkX/7dB8DvQXIi7/UMYcRA4z/JX2hzvZw1qmkHTKDnfXNwT/NOw+3uB1pE/ce9xkMFoU+Scp+tGExpgw==",
+  "dgSpecHash": "hG+U/kVSoqcqq6Y6QGQjQSh9KxFYpe5e4NJQuQoCc8nf9GVil4NNq8sV1heDW6oosLIs3BAjRL0FG9VgCaIO3g==",
   "success": true,
-  "projectFilePath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj",
+  "projectFilePath": "D:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1DAW\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\1DAW\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
