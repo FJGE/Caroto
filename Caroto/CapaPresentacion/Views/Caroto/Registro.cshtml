@@ -8,13 +8,13 @@
                     <div class="popup">
                         <h1>Crea tu cuenta</h1>
                         @Html.LabelFor(x => x.Correo, new { })
-                        @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", placeholder="Correo"})
+                        @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", placeholder = "Correo" })
                         @Html.ValidationMessageFor(x => x.Correo, null, new { @class = "text-danger" })
 
                         @Html.LabelFor(x => x.Contraseña, new { })
-                        @Html.PasswordFor(x => x.Contraseña, new { @class = "form-control", placeholder="Contraseña"})
+                        @Html.PasswordFor(x => x.Contraseña, new { @class = "form-control", placeholder = "Contraseña" })
                         @Html.ValidationMessageFor(x => x.Contraseña, null, new { @class = "text-danger" })
-                        <button type="submit">Crear</button>
+                        @Html.ActionLink("Crear", "SeleccionVehiculo", "Caroto", null, new { @class = "popup a", onclick = "document.forms[0].submit();return false" })
                     </div>
                     <div class="img-container"></div>
                 </div>

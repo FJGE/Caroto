@@ -11,23 +11,44 @@ namespace CapaPresentacion.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            Principal prin = new Principal();
+
+            prin.TituloPrin = "Caroto";
+            prin.Titulo = "Iniciar Sesión";
+            prin.Descripcion = "Tienda Web para comprar y personalizar el Vehiculo que quieras";
+
+            Secundaria sec1 = new Secundaria();
+            Secundaria sec2 = new Secundaria();
+
+            sec1.Titulo = "Coches";
+            sec1.Descripcion = "Elige un coche y personalizalo con las piezas disponibles de tu agrado.";
+
+            sec2.Titulo = "Motos";
+            sec2.Descripcion = "Elige un moto personalizala y presume de ella ante tus amigos.";
+
+            prin.secun = new List<Secundaria>();
+            prin.secun.Add(sec1);
+            prin.secun.Add(sec2);
+
+
+            return View(prin);
         }
 
         [HttpPost]
         public ActionResult Index(Principal loginDataModel)
         {
             Principal bdusu = new Principal();
+
             if (ModelState.IsValid)
             {
                 try
                 {
-                    CN_Usuarios u = new CN_Usuarios();
-                    DataTable busu = u.ComprobarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
-                    u.ComprobarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
-                    if (busu.Rows.Count > 0)
+                    CN_Usuarios usu = new CN_Usuarios();
+                    DataTable compUsu = usu.ComprobarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
+                    usu.ComprobarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
+                    if (compUsu.Rows.Count > 0)
                     {
-                        DataRow linea = busu.Rows[0];
+                        DataRow linea = compUsu.Rows[0];
                         bdusu.Correo = linea.Field<string>(0);
                         bdusu.Contraseña = linea.Field<string>(1);
                     }
@@ -64,9 +85,8 @@ namespace CapaPresentacion.Controllers
         {
             if (ModelState.IsValid)
             {
-                CN_Usuarios u = new CN_Usuarios();
-                u.MostrarUsu();
-                u.InsertarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
+                CN_Usuarios usu = new CN_Usuarios();
+                usu.InsertarUsu(loginDataModel.Correo, loginDataModel.Contraseña);
 
                 return RedirectToAction("SeleccionVehiculo");
             }

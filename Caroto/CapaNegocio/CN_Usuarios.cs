@@ -8,12 +8,6 @@ namespace CapaNegocio
     public class CN_Usuarios
     {
         private CD_Usuarios objetoCD = new CD_Usuarios();
-        public DataTable MostrarUsu()
-        {
-            DataTable tabla = new DataTable();
-            tabla = objetoCD.Mostrar();
-            return tabla;
-        }
         public DataTable ComprobarUsu(string correo, string contraseña)
         {
             DataTable tabla = new DataTable();
@@ -28,10 +22,6 @@ namespace CapaNegocio
         public void EditarUsu(string correo, string contraseña)
         {
             objetoCD.Editar(correo, contraseña);
-        }
-        public void EliminarUsu(string correo)
-        {
-            objetoCD.Eliminar(correo);
         }
     }
 }

@@ -48,12 +48,7 @@ D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\scopedcss\bu
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.TagHelpers.input.cache
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.TagHelpers.output.cache
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.RazorCoreGenerate.cache
-D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\MenuSeleccionVehiculo.cshtml.g.cs
-D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
-D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\Registro.cshtml.g.cs
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
-D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - MainApp.cshtml.g.cs
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
@@ -66,8 +61,6 @@ D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresenta
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\ref\CapaPresentacion.dll
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.pdb
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.genruntimeconfig.cache
-D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\MenuGammasCoche.cshtml.g.cs
-D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\MenuGammasMoto.cshtml.g.cs
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.csproj.AssemblyReference.cache
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.AssemblyInfoInputs.cache
@@ -209,3 +202,11 @@ D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\Index.csht
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\Registro.cshtml.g.cs
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\SeleccionPiezas.cshtml.g.cs
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\SeleccionVehiculo.cshtml.g.cs
+D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\CapaSoporte.dll
+D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\CapaSoporte.pdb
+D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\GamasCoches.cshtml.g.cs
+D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\GamasMotos.cshtml.g.cs
+D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\Index.cshtml.g.cs
+D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\Registro.cshtml.g.cs
+D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\SeleccionPiezas.cshtml.g.cs
+D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\SeleccionVehiculo.cshtml.g.cs

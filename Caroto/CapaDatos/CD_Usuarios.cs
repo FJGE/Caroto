@@ -9,22 +9,6 @@ namespace CapaDatos
     public class CD_Usuarios
     {
         private CD_Conexion conexion = new CD_Conexion();
-        
-        public DataTable Mostrar()
-        {
-            SqlDataReader leer;
-            DataTable tabla = new DataTable();
-            SqlCommand comando = new SqlCommand();
-
-            comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "MostrarUsuarios";
-            comando.CommandType = CommandType.StoredProcedure;
-            leer = comando.ExecuteReader();
-            tabla.Load(leer);
-            conexion.CerrarConexion();
-            return tabla;
-
-        }
         public DataTable MostrarBD(string correo, string contraseña)
         {
             SqlDataReader leer;
@@ -71,18 +55,6 @@ namespace CapaDatos
 
             comando.ExecuteNonQuery();
 
-            comando.Parameters.Clear();
-            conexion.CerrarConexion();
-        }
-        public void Eliminar(string correo)
-        {
-            SqlCommand comando = new SqlCommand();
-
-            comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "EliminarUsuario";
-            comando.CommandType = CommandType.StoredProcedure;
-            comando.Parameters.AddWithValue("@correo", correo);
-            comando.ExecuteNonQuery();
             comando.Parameters.Clear();
             conexion.CerrarConexion();
         }
