@@ -269,3 +269,5 @@ E:\Caroto\Caroto\Test\obj\Debug\net5.0\Test.dll
 E:\Caroto\Caroto\Test\obj\Debug\net5.0\ref\Test.dll
 E:\Caroto\Caroto\Test\obj\Debug\net5.0\Test.pdb
 E:\Caroto\Caroto\Test\obj\Debug\net5.0\Test.genruntimeconfig.cache
+D:\Caroto\Caroto\Test\bin\Debug\net5.0\CapaSoporte.dll
+D:\Caroto\Caroto\Test\bin\Debug\net5.0\CapaSoporte.pdb

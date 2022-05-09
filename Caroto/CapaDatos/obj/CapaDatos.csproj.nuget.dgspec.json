@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {}
+    "D:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {}
   },
   "projects": {
-    "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {
+    "D:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj",
+        "projectUniqueName": "D:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj",
         "projectName": "CapaDatos",
-        "projectPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj",
+        "projectPath": "D:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj",
         "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
-        "outputPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaDatos\\obj\\",
+        "outputPath": "D:\\Caroto\\Caroto\\CapaDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
