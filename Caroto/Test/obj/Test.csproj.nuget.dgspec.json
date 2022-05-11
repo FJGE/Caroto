@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Caroto\\Caroto\\Test\\Test.csproj": {}
+    "D:\\DAW\\Programacion\\Caroto\\Caroto\\Test\\Test.csproj": {}
   },
   "projects": {
-    "D:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {
+    "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj",
+        "projectUniqueName": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj",
         "projectName": "CapaDatos",
-        "projectPath": "D:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj",
+        "projectPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj",
         "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
-        "outputPath": "D:\\Caroto\\Caroto\\CapaDatos\\obj\\",
+        "outputPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,14 +76,14 @@
         }
       }
     },
-    "D:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj": {
+    "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj",
+        "projectUniqueName": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj",
         "projectName": "CapaNegocio",
-        "projectPath": "D:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj",
+        "projectPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj",
         "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
-        "outputPath": "D:\\Caroto\\Caroto\\CapaNegocio\\obj\\",
+        "outputPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -104,11 +104,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {
-                "projectPath": "D:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj"
+              "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj"
               },
-              "D:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj": {
-                "projectPath": "D:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj"
+              "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj": {
+                "projectPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj"
               }
             }
           }
@@ -151,14 +151,14 @@
         }
       }
     },
-    "D:\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj": {
+    "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj",
+        "projectUniqueName": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj",
         "projectName": "CapaPresentacion",
-        "projectPath": "D:\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj",
+        "projectPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj",
         "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
-        "outputPath": "D:\\Caroto\\Caroto\\CapaPresentacion\\obj\\",
+        "outputPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaPresentacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -179,11 +179,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj": {
-                "projectPath": "D:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj"
+              "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj": {
+                "projectPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj"
               },
-              "D:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj": {
-                "projectPath": "D:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj"
+              "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj": {
+                "projectPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj"
               }
             }
           }
@@ -225,14 +225,14 @@
         }
       }
     },
-    "D:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj": {
+    "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj",
+        "projectUniqueName": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj",
         "projectName": "CapaSoporte",
-        "projectPath": "D:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj",
+        "projectPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj",
         "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
-        "outputPath": "D:\\Caroto\\Caroto\\CapaSoporte\\obj\\",
+        "outputPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaSoporte\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -283,14 +283,14 @@
         }
       }
     },
-    "D:\\Caroto\\Caroto\\Test\\Test.csproj": {
+    "D:\\DAW\\Programacion\\Caroto\\Caroto\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Caroto\\Caroto\\Test\\Test.csproj",
+        "projectUniqueName": "D:\\DAW\\Programacion\\Caroto\\Caroto\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "D:\\Caroto\\Caroto\\Test\\Test.csproj",
+        "projectPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
-        "outputPath": "D:\\Caroto\\Caroto\\Test\\obj\\",
+        "outputPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -311,14 +311,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {
-                "projectPath": "D:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj"
+              "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj"
               },
-              "D:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj": {
-                "projectPath": "D:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj"
+              "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj": {
+                "projectPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj"
               },
-              "D:\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj": {
-                "projectPath": "D:\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj"
+              "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj": {
+                "projectPath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj"
               }
             }
           }

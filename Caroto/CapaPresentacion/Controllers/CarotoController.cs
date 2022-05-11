@@ -81,6 +81,9 @@ namespace CapaPresentacion.Controllers
 
         public ActionResult Registro()
         {
+            Principal prin = new Principal();
+
+            prin.Caroto = "Caroto";
             return View(new Principal());
         }
 
