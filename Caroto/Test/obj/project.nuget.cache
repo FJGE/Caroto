@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bn5RdhZMsowbW0+3I0bOT8wY2bdIZ/6cq/5UqDv8DKXyvhy1RcZhd1p8Ny6rpcFdGKSnABRZaoD6PDY+tdHh6A==",
+  "dgSpecHash": "Pqkv28FY3mu4PYIhDHB2FdySPm1se+ghhVXqiRMBmwufecuo9GsAarQ/36juWKh2CMRMOHhZMoDTu2W1q6wlpg==",
   "success": true,
-  "projectFilePath": "D:\\DAW\\Programacion\\Caroto\\Caroto\\Test\\Test.csproj",
+  "projectFilePath": "D:\\Caroto\\Caroto\\Test\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1DAW\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\1DAW\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
