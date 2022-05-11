@@ -1,16 +1,15 @@
-﻿<section id="productos" style="margin: 10px 40px;">
-        <div class="container">
-            <h2>Elija su Vehiculo</h2>
-            <div class="card-container">
+﻿@model CapaSoporte.Principal
+<section id="productos" style="margin: 10px 40px;">
+    <div class="container">
+        <h2>Elija su Vehiculo</h2>
+        <div class="card-container">
+            @foreach (var a in Model.secun)
+             {
                 <div class="card" style="display: flex; align-items: center;">
-                    <h3>Coche</h3>
-                    @Html.ActionLink("Elegir", "GamasCoches", "Caroto", null, new { @class="regButton", style = "margin: 20px 0px; font-size: 20px; text-decoration: none;" })
+                    <h3>@a.Titulo</h3>
+                    @Html.ActionLink("Elegir", a.Descripcion, "Caroto", null, new { @class = "regButton", style = "margin: 20px 0px; font-size: 20px; text-decoration: none;" })
                 </div>
-                
-                <div class="card" style="display: flex; align-items: center;">
-                    <h3>Moto</h3>
-                    @Html.ActionLink("Elegir", "GamasMotos", "Caroto", null, new { @class="regButton", style = "margin: 20px 0px; font-size: 20px; text-decoration: none;" })
-                </div>
-            </div>
+             }
         </div>
-    </section>
+    </div>
+</section>

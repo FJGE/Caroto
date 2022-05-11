@@ -6,7 +6,7 @@
 <section id="registro">
                 <div class="reg-container">
                     <div class="popup">
-                        <h1>Crea tu cuenta</h1>
+                        <h1>@Model.Titulo</h1>
                         @Html.LabelFor(x => x.Correo, new { })
                         @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", placeholder = "Correo" })
                         @Html.ValidationMessageFor(x => x.Correo, null, new { @class = "text-danger" })

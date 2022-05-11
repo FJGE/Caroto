@@ -13,7 +13,7 @@ namespace CapaPresentacion.Controllers
         {
             Principal prin = new Principal();
 
-            prin.Caroto = "Caroto";
+            prin.Titulo = "Caroto";
             prin.Descripcion = "Tienda Web para comprar y personalizar el Vehiculo que quieras";
             prin.Iniciar_Sesion = "Iniciar Sesión";
             prin.Productos = "Productos";
@@ -83,8 +83,8 @@ namespace CapaPresentacion.Controllers
         {
             Principal prin = new Principal();
 
-            prin.Caroto = "Caroto";
-            return View(new Principal());
+            prin.Titulo = "Crea tu cuenta";
+            return View(prin);
         }
 
         [HttpPost]
@@ -105,7 +105,22 @@ namespace CapaPresentacion.Controllers
 
         public ActionResult SeleccionVehiculo()
         {
-            return View();
+            Principal prin = new Principal();
+            Secundaria sec1 = new Secundaria();
+            Secundaria sec2 = new Secundaria();
+
+            sec1.Titulo = "Coche";
+            sec1.Descripcion = "GamasCoches";
+
+            sec2.Titulo = "Moto";
+            sec2.Descripcion = "GamasMotos";
+
+
+            prin.secun = new List<Secundaria>();
+            prin.secun.Add(sec1);
+            prin.secun.Add(sec2);
+
+            return View(prin);
         }
 
         public ActionResult GamasCoches()
