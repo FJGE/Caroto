@@ -9,15 +9,15 @@ namespace CapaSoporte
 {
     public class AllList
     {
-        [Display(Name = "Gama Baja - 500€")]
+        [Display(Name = "Gama Baja - 10.000€")]
         [DataType(DataType.Text)]
         public string GamaBaja { get; set; }
 
-        [Display(Name = "Gama Media - 1000€")]
+        [Display(Name = "Gama Media - 20.000€")]
         [DataType(DataType.Text)]
         public string GamaMedia { get; set; }
 
-        [Display(Name = "Gama Alta - 1500€")]
+        [Display(Name = "Gama Alta - 30.000€")]
         [DataType(DataType.Text)]
         public string GamaAlta { get; set; }
 
@@ -29,8 +29,7 @@ namespace CapaSoporte
         public List<Gama> MotosMedias = new List<Gama>();
         public List<Gama> MotosBajas = new List<Gama>();
 
-        public List<Gama> PiezasBajas = new List<Gama>();
-        public List<Gama> PiezasMedias = new List<Gama>();
-        public List<Gama> PiezasAltas = new List<Gama>();
+        public List<Gama> PiezasMoto = new List<Gama>();
+        public List<Gama> PiezasCoche = new List<Gama>();
     }
 }
