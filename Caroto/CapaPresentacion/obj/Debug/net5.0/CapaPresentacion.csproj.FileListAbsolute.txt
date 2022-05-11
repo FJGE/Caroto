@@ -200,7 +200,6 @@ D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\GamasCoche
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\GamasMotos.cshtml.g.cs
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\Index.cshtml.g.cs
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\Registro.cshtml.g.cs
-D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\SeleccionPiezas.cshtml.g.cs
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\SeleccionVehiculo.cshtml.g.cs
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\CapaSoporte.dll
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\CapaSoporte.pdb
@@ -217,3 +216,5 @@ D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\System.Web.W
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\System.Web.WebPages.dll
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\PiezasCoche.cshtml.g.cs
+D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\PiezasMoto.cshtml.g.cs
