@@ -29,6 +29,6 @@ namespace CapaSoporte
         public string Sobre_Nosotros { get; set; }
         public string Descripcion2 { get; set; }
 
-        public List<Secundaria> secun { get; set; }
+        public List<Gama> secun { get; set; }
     }
 }

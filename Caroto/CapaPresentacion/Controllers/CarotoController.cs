@@ -21,8 +21,8 @@ namespace CapaPresentacion.Controllers
             prin.Descripcion2 = "Somos una tienda web dedicada a la venta de vehiculos personalizados por los usuarios para que puedan comprar el coche de sus sueños.<br /><br />Elige tu Coche o Moto disponible entre una serie de gamas.<br /><br /> Añadele las piezas para hacer de tu vehiculo una experiencia unica";
 
 
-            Secundaria sec1 = new Secundaria();
-            Secundaria sec2 = new Secundaria();
+            Gama sec1 = new Gama();
+            Gama sec2 = new Gama();
 
             sec1.Titulo = "Coches";
             sec1.Descripcion = "Elige un coche y personalizalo con las piezas disponibles de tu agrado.";
@@ -30,7 +30,7 @@ namespace CapaPresentacion.Controllers
             sec2.Titulo = "Motos";
             sec2.Descripcion = "Elige un moto personalizala y presume de ella ante tus amigos.";
 
-            prin.secun = new List<Secundaria>();
+            prin.secun = new List<Gama>();
             prin.secun.Add(sec1);
             prin.secun.Add(sec2);
 
@@ -106,8 +106,8 @@ namespace CapaPresentacion.Controllers
         public ActionResult SeleccionVehiculo()
         {
             Principal prin = new Principal();
-            Secundaria sec1 = new Secundaria();
-            Secundaria sec2 = new Secundaria();
+            Gama sec1 = new Gama();
+            Gama sec2 = new Gama();
 
             sec1.Titulo = "Coche";
             sec1.Descripcion = "GamasCoches";
@@ -116,7 +116,7 @@ namespace CapaPresentacion.Controllers
             sec2.Descripcion = "GamasMotos";
 
 
-            prin.secun = new List<Secundaria>();
+            prin.secun = new List<Gama>();
             prin.secun.Add(sec1);
             prin.secun.Add(sec2);
 
