@@ -16,5 +16,7 @@ namespace CapaSoporte
         public string matricula { get; set; }
         public string Imagen { get; set; }
         public int id { get; set; }
+        public string nombre { get; set; }
+        public decimal precio { get; set; }
     }
 }

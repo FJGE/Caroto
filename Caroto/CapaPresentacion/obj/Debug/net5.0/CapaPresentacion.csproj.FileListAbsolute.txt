@@ -212,3 +212,7 @@ D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\PiezasCoch
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\PiezasMoto.cshtml.g.cs
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\PiezasCoche.cshtml.g.cs
 D:\DAW\Programacion\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\PiezasMoto.cshtml.g.cs
+D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - registro.cshtml.g.cs
+D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - tienda.cshtml.g.cs
+D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - coche.cshtml.g.cs
+D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - moto.cshtml.g.cs

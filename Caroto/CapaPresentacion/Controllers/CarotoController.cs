@@ -151,12 +151,40 @@ namespace CapaPresentacion.Controllers
 
         public ActionResult PiezasCoche()
         {
-            return View();
+            CN_PiezasCoche piezas = new CN_PiezasCoche();
+            DataTable piecesTable = piezas.MostrarProd();
+            AllList lista1 = new AllList();
+
+            foreach (DataRow a in piecesTable.Rows)
+            {
+                Gama pieceView = new Gama();
+                pieceView.id = (int)a["Id"];
+                pieceView.nombre = (string)a["Nombre"];
+                pieceView.Imagen = (string)a["Imagen"];
+                pieceView.precio = (decimal)a["precio"];
+
+                lista1.PiezasCoche.Add(pieceView);
+            }
+            return View(lista1);
         }
 
         public ActionResult PiezasMoto()
         {
-            return View();
+            CN_PiezasMoto piezas = new CN_PiezasMoto();
+            DataTable piecesTable = piezas.MostrarProd();
+            AllList lista1 = new AllList();
+
+            foreach (DataRow a in piecesTable.Rows)
+            {
+                Gama pieceView = new Gama();
+                pieceView.id = (int)a["Id"];
+                pieceView.nombre = (string)a["Nombre"];
+                pieceView.Imagen = (string)a["Imagen"];
+                pieceView.precio = (decimal)a["precio"];
+
+                lista1.PiezasMoto.Add(pieceView);
+            }
+            return View(lista1);
         }
 
         private List<Gama> listademotos(DataTable bikeTable)
@@ -172,6 +200,7 @@ namespace CapaPresentacion.Controllers
             }
             return gm;
         }
+
         private List<Gama> listadecoches(DataTable carTable)
         {
             List<Gama> gm = new List<Gama>();

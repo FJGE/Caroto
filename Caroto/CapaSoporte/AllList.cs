@@ -21,6 +21,10 @@ namespace CapaSoporte
         [DataType(DataType.Text)]
         public string GamaAlta { get; set; }
 
+        [Display(Name = "Piezas Disponibles")]
+        [DataType(DataType.Text)]
+        public string Titulo { get; set; }
+
         public List<Gama> CochesAltos = new List<Gama>();
         public List<Gama> CochesMedios = new List<Gama>();
         public List<Gama> CochesBajos = new List<Gama>();

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Caroto</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/styles.css" />
+    <link rel="stylesheet" href="~/css/logWindow.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a class="logo" id="titleNav" asp-area="" asp-controller="Caroto" asp-action="Index">Caroto</a>
+            <nav>
+                <a class="nav-item" id="titleNav" asp-area="" asp-controller="Caroto" asp-action="SeleccionVehiculo">Selección Vehiculo</a>
+                <a class="nav-item" id="titleNav" asp-area="" asp-controller="Caroto" asp-action="GamasMotos">Motos</a>
+                <a class="nav-item" id="titleNav" asp-area="" asp-controller="Caroto" asp-action="PiezasMoto">Piezas</a>
+                <a class="nav-item" id="titleNav" asp-area="" asp-controller="Caroto" asp-action="Carro">Carro</a>
+            </nav>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    <footer>
+        <div class="container">
+            <p>Francisco Javier Gañan & Alejandro Iborra<br>Caroto Corporation&copy;</p>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

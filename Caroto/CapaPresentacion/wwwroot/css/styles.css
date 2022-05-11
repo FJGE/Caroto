@@ -100,9 +100,10 @@ header .logo {
         align-items: center;
     }
 
-    #hero .buttons {
+    .buttons {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     .logButton {
@@ -237,7 +238,7 @@ footer {
         padding-bottom: 0;
     }
 
-    #hero .buttons {
+    .buttons {
         display: flex;
         flex-direction: row;
     }
