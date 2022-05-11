@@ -7,12 +7,12 @@
     <div class="row row-cols-1 row-cols-md-4 mb-3 text-center" style="display: flex; flex-direction: row; gap: 50px; padding-top: 10px; padding-left: 100px;">
         @foreach (var item in Model.CochesBajos)
         {
-            <button class="cardBtn" @Url.Action("Añadir aqui actionresult", "AllList", new { matricula = item.matricula})>
+            <a class="cardBtn" href="@Url.Action("PiezasCoche", "Caroto", new { matricula = item.matricula})">
                 <div class="cardMk2">
                     <img src="@item.Imagen" style="margin: auto; width:200px;" /><br />
                     @Html.DisplayFor(modelItem => item.matricula)
                 </div>
-            </button>
+            </a>
         }
     </div>
 </div>
@@ -24,12 +24,12 @@
     <div class="row row-cols-1 row-cols-md-4 mb-3 text-center" style="display: flex; flex-direction: row; gap: 50px; padding-top: 10px; padding-left: 100px;">
         @foreach (var item in Model.CochesMedios)
         {
-            <button class="cardBtn" @Url.Action("Añadir aqui actionresult", "AllList", new { matricula = item.matricula })>
+            <a class="cardBtn" href="@Url.Action("PiezasCoche", "Caroto", new { matricula = item.matricula})">
                 <div class="cardMk2">
                     <img src="@item.Imagen" style="margin: auto; width:200px;" /><br />
                     @Html.DisplayFor(modelItem => item.matricula)
                 </div>
-            </button>
+            </a>
         }
     </div>
 </div>
@@ -41,12 +41,12 @@
     <div class="row row-cols-1 row-cols-md-4 mb-3 text-center" style="display: flex; flex-direction: row; gap: 50px; padding-top: 10px; padding-left: 100px;">
         @foreach (var item in Model.CochesAltos)
         {
-            <button class="cardBtn" @Url.Action("Añadir aqui actionresult", "AllList", new { matricula = item.matricula })>
+            <a class="cardBtn" href="@Url.Action("PiezasCoche", "Caroto", new { matricula = item.matricula})">
                 <div class="cardMk2">
                     <img src="@item.Imagen" style="margin: auto; width:200px;" /><br />
                     @Html.DisplayFor(modelItem => item.matricula)
                 </div>
-            </button>
+            </a>
         }
     </div>
 </div>

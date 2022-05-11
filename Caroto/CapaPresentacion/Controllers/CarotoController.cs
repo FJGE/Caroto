@@ -18,7 +18,7 @@ namespace CapaPresentacion.Controllers
             prin.Iniciar_Sesion = "Iniciar Sesión";
             prin.Productos = "Productos";
             prin.Sobre_Nosotros = "Sobre Nosotros";
-            prin.Descripcion2 = "Somos una tienda web dedicada a la venta de vehiculos personalizados por los usuarios para que puedan comprar el coche de sus sueños.<br><br>Elige tu Coche o Moto disponible entre una serie de gamas.<br><br> Añadele las piezas para hacer de tu vehiculo una experiencia unica";
+            prin.Descripcion2 = "Somos una tienda web dedicada a la venta de vehiculos personalizados por los usuarios para que puedan comprar el coche de sus sueños.<br /><br />Elige tu Coche o Moto disponible entre una serie de gamas.<br /><br /> Añadele las piezas para hacer de tu vehiculo una experiencia unica";
 
 
             Secundaria sec1 = new Secundaria();
@@ -133,6 +133,17 @@ namespace CapaPresentacion.Controllers
 
             return View(lista2);
         }
+
+        public ActionResult PiezasCoche()
+        {
+            return View();
+        }
+
+        public ActionResult PiezasMoto()
+        {
+            return View();
+        }
+
         private List<Gama> listademotos(DataTable bikeTable)
         {
             List<Gama> gm = new List<Gama>();

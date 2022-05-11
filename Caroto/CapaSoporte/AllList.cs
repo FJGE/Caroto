@@ -28,5 +28,9 @@ namespace CapaSoporte
         public List<Gama> MotosAltas = new List<Gama>();
         public List<Gama> MotosMedias = new List<Gama>();
         public List<Gama> MotosBajas = new List<Gama>();
+
+        public List<Gama> PiezasBajas = new List<Gama>();
+        public List<Gama> PiezasMedias = new List<Gama>();
+        public List<Gama> PiezasAltas = new List<Gama>();
     }
 }
