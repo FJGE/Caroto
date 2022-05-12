@@ -149,7 +149,7 @@ namespace CapaPresentacion.Controllers
             return View(lista2);
         }
 
-        public ActionResult PiezasCoche()
+        public ActionResult PiezasCoche(string matricula, string imagen)
         {
             CN_PiezasCoche piezas = new CN_PiezasCoche();
             DataTable piecesTable = piezas.MostrarProd();
@@ -165,10 +165,13 @@ namespace CapaPresentacion.Controllers
 
                 lista1.PiezasCoche.Add(pieceView);
             }
+            ViewBag.matricula = matricula;
+            ViewBag.imagen = imagen;
+
             return View(lista1);
         }
 
-        public ActionResult PiezasMoto()
+        public ActionResult PiezasMoto(string matricula,string imagen)
         {
             CN_PiezasMoto piezas = new CN_PiezasMoto();
             DataTable piecesTable = piezas.MostrarProd();
@@ -184,11 +187,17 @@ namespace CapaPresentacion.Controllers
 
                 lista1.PiezasMoto.Add(pieceView);
             }
+            ViewBag.matricula = matricula;
+            ViewBag.imagen = imagen;
+
             return View(lista1);
         }
 
-        public ActionResult Compra()
+        public ActionResult Compra(string matricula, string imagen)
         {
+            ViewBag.matricula = matricula;
+            ViewBag.imagen = imagen;
+
             return View();
         }
 

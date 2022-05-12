@@ -21,6 +21,6 @@
     </div>
 
     <div class="buttons" style="justify-content: center;">
-        @Html.ActionLink("Continuar", "Compra", "Caroto", null, new { @class = "regButton", style = "text-decoration: none; position: center;"})
+        @Html.ActionLink("Continuar", "Compra", "Caroto", new { matricula = ViewBag.matricula, imagen = ViewBag.imagen }, new { @class = "regButton", style = "text-decoration: none; position: center;"})
     </div>
 }

@@ -11,7 +11,7 @@
     <div class="row row-cols-1 row-cols-md-4 mb-3 text-center" style="display: flex; flex-direction: row; gap: 50px; padding-top: 10px; padding-left: 100px;">
         @foreach (var item in Model.MotosBajas)
         {
-            <a class="cardBtn" href="@Url.Action("PiezasMoto", "Caroto", new { matricula = item.matricula})">
+            <a class="cardBtn" href="@Url.Action("PiezasMoto", "Caroto", new { matricula = item.matricula, imagen = item.Imagen})">
                 <div class="cardMk2">
                     <img src="@item.Imagen" style="margin: auto; width:200px;" /><br />
                     @Html.DisplayFor(modelItem => item.matricula)
@@ -28,7 +28,7 @@
     <div class="row row-cols-1 row-cols-md-4 mb-3 text-center" style="display: flex; flex-direction: row; gap: 50px; padding-top: 10px; padding-left: 100px;">
         @foreach (var item in Model.MotosMedias)
         {
-            <a class="cardBtn" href="@Url.Action("PiezasMoto", "Caroto", new { matricula = item.matricula})">
+            <a class="cardBtn" href="@Url.Action("PiezasMoto", "Caroto", new { matricula = item.matricula, imagen = item.Imagen})">
                 <div class="cardMk2">
                     <img src="@item.Imagen" style="margin: auto; width:200px;" /><br />
                     @Html.DisplayFor(modelItem => item.matricula)
@@ -45,7 +45,7 @@
     <div class="row row-cols-1 row-cols-md-4 mb-3 text-center" style="display: flex; flex-direction: row; gap: 50px; padding-top: 10px; padding-left: 100px;">
         @foreach (var item in Model.MotosAltas)
         {
-            <a class="cardBtn" href="@Url.Action("PiezasMoto", "Caroto", new { matricula = item.matricula})">
+            <a class="cardBtn" href="@Url.Action("PiezasMoto", "Caroto", new { matricula = item.matricula, imagen = item.Imagen})">
                 <div class="cardMk2">
                     <img src="@item.Imagen" style="margin: auto; width:200px;" /><br />
                     @Html.DisplayFor(modelItem => item.matricula)
