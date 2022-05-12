@@ -126,7 +126,6 @@ D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.csproj.CopyC
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.genruntimeconfig.cache
 E:\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\appsettings.Development.json
 E:\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\appsettings.json
-E:\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\CapaPresentacion.StaticWebAssets.xml
 E:\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\CapaPresentacion.exe
 E:\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\CapaPresentacion.deps.json
 E:\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\CapaPresentacion.runtimeconfig.json
@@ -174,14 +173,7 @@ E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\staticwebassets\CapaPresentac
 E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.TagHelpers.input.cache
 E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.TagHelpers.output.cache
 E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\CapaPresentacion.RazorCoreGenerate.cache
-E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\MenuGammasCoche.cshtml.g.cs
-E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\MenuGammasMoto.cshtml.g.cs
-E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\MenuSeleccionVehiculo.cshtml.g.cs
-E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
-E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Home\Registro.cshtml.g.cs
 E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
-E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - MainApp.cshtml.g.cs
 E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
@@ -216,3 +208,18 @@ D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - 
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - tienda.cshtml.g.cs
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - coche.cshtml.g.cs
 D:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - moto.cshtml.g.cs
+E:\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\CapaSoporte.dll
+E:\Caroto\Caroto\CapaPresentacion\bin\Debug\net5.0\CapaSoporte.pdb
+E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\staticwebassets\CapaPresentacion.StaticWebAssets.xml
+E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\GamasCoches.cshtml.g.cs
+E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\GamasMotos.cshtml.g.cs
+E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\Index.cshtml.g.cs
+E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\PiezasCoche.cshtml.g.cs
+E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\PiezasMoto.cshtml.g.cs
+E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\Registro.cshtml.g.cs
+E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\SeleccionVehiculo.cshtml.g.cs
+E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - coche.cshtml.g.cs
+E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - moto.cshtml.g.cs
+E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - registro.cshtml.g.cs
+E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Shared\_Layout - tienda.cshtml.g.cs
+E:\Caroto\Caroto\CapaPresentacion\obj\Debug\net5.0\Razor\Views\Caroto\Compra.cshtml.g.cs

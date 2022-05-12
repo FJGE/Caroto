@@ -15,12 +15,12 @@
                 <img src="@item.Imagen" style="margin: auto; width:200px;" /><br />
                 @Html.DisplayFor(modelItem => item.nombre)
                 @Html.DisplayFor(modelItem => item.precio)€
-                <input type="checkbox" value="@item.id" style="margin-top: 5px;">
+                <input type="checkbox" value="@item.id" style="margin-top: 7px;">
             </div>
         }
     </div>
 
     <div class="buttons" style="justify-content: center;">
-        @Html.ActionLink("Continuar", "Compra", "Caroto", null, new { @class = "regButton", style = "text-decoration: none; position: center;" })
+        @Html.ActionLink("Continuar", "Compra", "Caroto", null, new { @class = "regButton", style = "text-decoration: none; position: center;"})
     </div>
 }

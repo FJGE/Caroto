@@ -22,3 +22,15 @@ D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.cspro
 D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.dll
 D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\ref\CapaSoporte.dll
 D:\DAW\Programacion\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.pdb
+E:\Caroto\Caroto\CapaSoporte\bin\Debug\net5.0\CapaSoporte.deps.json
+E:\Caroto\Caroto\CapaSoporte\bin\Debug\net5.0\CapaSoporte.dll
+E:\Caroto\Caroto\CapaSoporte\bin\Debug\net5.0\ref\CapaSoporte.dll
+E:\Caroto\Caroto\CapaSoporte\bin\Debug\net5.0\CapaSoporte.pdb
+E:\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.csproj.AssemblyReference.cache
+E:\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.GeneratedMSBuildEditorConfig.editorconfig
+E:\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.AssemblyInfoInputs.cache
+E:\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.AssemblyInfo.cs
+E:\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.csproj.CoreCompileInputs.cache
+E:\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.dll
+E:\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\ref\CapaSoporte.dll
+E:\Caroto\Caroto\CapaSoporte\obj\Debug\net5.0\CapaSoporte.pdb

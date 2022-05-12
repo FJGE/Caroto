@@ -187,6 +187,11 @@ namespace CapaPresentacion.Controllers
             return View(lista1);
         }
 
+        public ActionResult Compra()
+        {
+            return View();
+        }
+
         private List<Gama> listademotos(DataTable bikeTable)
         {
             List<Gama> gm = new List<Gama>();

@@ -47,3 +47,5 @@ D:\Caroto\Caroto\CapaNegocio\bin\Debug\net5.0\CapaSoporte.dll
 D:\Caroto\Caroto\CapaNegocio\bin\Debug\net5.0\CapaSoporte.pdb
 D:\DAW\Programacion\Caroto\Caroto\CapaNegocio\bin\Debug\net5.0\CapaSoporte.dll
 D:\DAW\Programacion\Caroto\Caroto\CapaNegocio\bin\Debug\net5.0\CapaSoporte.pdb
+E:\Caroto\Caroto\CapaNegocio\bin\Debug\net5.0\CapaSoporte.dll
+E:\Caroto\Caroto\CapaNegocio\bin\Debug\net5.0\CapaSoporte.pdb
