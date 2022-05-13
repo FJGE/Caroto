@@ -27,7 +27,7 @@ label {
     font-size: x-large;
 }
 
-input {
+.input {
     font-size: medium;
     padding: 20px;
     border-radius: 35px;
@@ -63,6 +63,21 @@ input {
     align-items: center;
     position: absolute;
     margin-left: 420px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.XBtn2 {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 520px;
     margin-top: -10px;
     cursor: pointer;
 }

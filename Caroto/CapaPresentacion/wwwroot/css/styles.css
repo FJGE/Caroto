@@ -224,6 +224,44 @@ footer {
     text-decoration: none;
 }
 
+/*MENU COMPRA*/
+
+#Comprar {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+    #Comprar .photoView {
+        width: 300px;
+        height: 200px;
+        border: 1px solid;
+        border-color: black;
+    }
+
+        #Comprar .photoView img {
+            width: 100%;
+            height: 100%;
+        }
+
+#ShopButton {
+    width: 200px;
+    padding: 20px;
+    margin: 0px 50px 50px 20px;
+    border: 3px solid var(--color-acento);
+    border-radius: 35px;
+    font-size: medium;
+    font-weight: bold;
+    color: var(--color-acento);
+    background-color: transparent;
+    cursor: pointer;
+}
+
 /*VISTA ESCRITORIO*/
 
 @media (min-width: 720px) {
@@ -308,4 +346,36 @@ footer {
             background-repeat: no-repeat;
             background-size: cover;
         }
+
+        /* MENU COMPRA */
+
+    #Comprar {
+        display: flex;
+        flex-direction: row;
+        height: 55vh;
+        margin: 150px 500px 100px 500px;
+        justify-content: normal;
+        align-items: normal;
+        border: 1px solid;
+        border-color: black;
+    }
+
+    #Comprar .photoView {
+        margin: 40px;
+        width: 48%;
+        height: 300px;
+        border: 1px solid;
+        border-color: black;
+    }
+
+        #Comprar .photoView img{
+            width: 100%;
+            height: 100%;
+        }
+
+        #Comprar .shopText {
+            width: 48%;
+            margin-top: 50px;
+            text-align: left;
+        } 
 }

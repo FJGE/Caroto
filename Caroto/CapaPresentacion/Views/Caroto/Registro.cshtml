@@ -11,11 +11,11 @@
             <div class="popup">
                 <h1>@Model.Titulo</h1>
                 @Html.LabelFor(x => x.Correo, new { })
-                @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", placeholder = "Correo" })
+                @Html.TextBoxFor(x => x.Correo, new { @class = "input", placeholder = "Correo" })
                 @Html.ValidationMessageFor(x => x.Correo, null, new { @class = "text-danger" })
 
                 @Html.LabelFor(x => x.Contraseña, new { })
-                @Html.PasswordFor(x => x.Contraseña, new { @class = "form-control", placeholder = "Contraseña" })
+                @Html.PasswordFor(x => x.Contraseña, new { @class = "input", placeholder = "Contraseña" })
                 @Html.ValidationMessageFor(x => x.Contraseña, null, new { @class = "text-danger" })
                 @Html.ActionLink("Crear", "SeleccionVehiculo", "Caroto", null, new { @class = "popup a", style = "width: 200px;", onclick = "document.forms[0].submit();return false" })
             </div>

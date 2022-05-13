@@ -1,5 +1,34 @@
-﻿@if (ViewBag.matricula != null)
-{
-    @ViewBag.matricula;
-    <img src="@ViewBag.imagen" />
-}
+﻿<section id="Comprar">
+    @if (ViewBag.matricula != null && ViewBag.imagen != null)
+    {
+        <div class="photoView">
+            <img src="@ViewBag.imagen" />
+        </div>
+        <div class="shopText">
+            <p>
+                <span style="font-size: 2em;">Matricula:</span>
+                @ViewBag.matricula
+                <br /><br />
+                <span style="font-size: 2em;">Piezas seleccionadas:</span>
+                <br />
+                <br />
+                <br />
+                <br />
+            </p>
+            @Html.ActionLink("Comprar", "", "Caroto", null, new { @class = "regButton",id="ShopButton" , onclick = "showLog();return false;", style = "text-decoration: none;" })
+        </div>
+    }
+
+</section>
+
+<div id="logWindow">
+    <div class="popup">
+        <h1>Felicidades</h1>
+        <div class="XBtn2" onclick="closeLog()">&#10060;</div>
+        <p>
+            Ha realizado la compra satisfactoriamente.
+            <br /><br />
+            Para efectuar el pago y retirar el coche de nuestra tienda.<br />Por favor vaya a su tienda Caroto fisica mas cercana
+        </p>
+    </div>
+</div>
