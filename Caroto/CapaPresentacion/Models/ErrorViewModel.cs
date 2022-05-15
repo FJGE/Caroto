@@ -1,6 +1,6 @@
 using System;
 
-namespace CapaPresentacion.Models
+namespace Caroto.Models
 {
     public class ErrorViewModel
     {

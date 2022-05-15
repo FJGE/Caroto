@@ -1,0 +1,17 @@
+D:\Caroto\Caroto\CapaNegocio\bin\Release\net5.0\CapaNegocio.deps.json
+D:\Caroto\Caroto\CapaNegocio\bin\Release\net5.0\CapaNegocio.dll
+D:\Caroto\Caroto\CapaNegocio\bin\Release\net5.0\ref\CapaNegocio.dll
+D:\Caroto\Caroto\CapaNegocio\bin\Release\net5.0\CapaNegocio.pdb
+D:\Caroto\Caroto\CapaNegocio\bin\Release\net5.0\CapaDatos.dll
+D:\Caroto\Caroto\CapaNegocio\bin\Release\net5.0\CapaSoporte.dll
+D:\Caroto\Caroto\CapaNegocio\bin\Release\net5.0\CapaDatos.pdb
+D:\Caroto\Caroto\CapaNegocio\bin\Release\net5.0\CapaSoporte.pdb
+D:\Caroto\Caroto\CapaNegocio\obj\Release\net5.0\CapaNegocio.csproj.AssemblyReference.cache
+D:\Caroto\Caroto\CapaNegocio\obj\Release\net5.0\CapaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Caroto\Caroto\CapaNegocio\obj\Release\net5.0\CapaNegocio.AssemblyInfoInputs.cache
+D:\Caroto\Caroto\CapaNegocio\obj\Release\net5.0\CapaNegocio.AssemblyInfo.cs
+D:\Caroto\Caroto\CapaNegocio\obj\Release\net5.0\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\Caroto\Caroto\CapaNegocio\obj\Release\net5.0\CapaNegocio.csproj.CopyComplete
+D:\Caroto\Caroto\CapaNegocio\obj\Release\net5.0\CapaNegocio.dll
+D:\Caroto\Caroto\CapaNegocio\obj\Release\net5.0\ref\CapaNegocio.dll
+D:\Caroto\Caroto\CapaNegocio\obj\Release\net5.0\CapaNegocio.pdb

@@ -1,0 +1,56 @@
+﻿@model CapaSoporte.AllList
+
+@{
+    Layout = "_Layout - coche";
+}
+
+@Html.LabelFor(x => x.GamaBaja, new { style = "margin-left: 50px; margin-top: 20px;" })
+<img id="btn1" onclick="cambiarStyle(1)" style="cursor: pointer; margin-top: -10px; margin-left: 10px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABOUlEQVRIS+2V7xHBQBDFpQMlKIEO6IASdEAFqIAO6IAO6IAOpANKsL8PZy6y7k/mTnzIzuyE3N572Ze9l6LXUhQt8fY64p8p/xdS96XdleQwU9s3wV0abLvjqdw8ZiI1sHP5ceCPTUzHj4zET8GeSNJ57Tjl7BqZd5rU5h5y8wAp4yRgMxtQm2okv0tyTREViV0ds5ZS8orEPmLWU0jOBDPJtXAZCFJfJQcN9S5l30gSqaOIKR5LnhsSM0wMlRohlrmVnYtIco7N26WadGz2IHmolTolNoAhHVPLe+aI+YL3icQXX2EoMTjIjeyu2Mji2kfKegwx9S7J8WC8WJ3iz4eJJf72IVHdydV5LDFYmqup7pSaGDzb1WofgBzv2GAi+V6SK5ZYhpDZNU2kjuVQ6zviJDKGgLQm9QsC7S0fn4YEFgAAAABJRU5ErkJggg==" />
+
+<div class="invisible" id="H1">
+    <div class="row row-cols-1 row-cols-md-4 mb-3 text-center" style="display: flex; flex-direction: row; gap: 50px; padding-top: 10px; padding-left: 100px;">
+        @foreach (var item in Model.CochesBajos)
+        {
+            <a class="cardBtn" href="@Url.Action("PiezasCoche", "Caroto", new { matricula = item.matricula, imagen = item.Imagen})">
+                <div class="cardMk2">
+                    <img src="@item.Imagen" style="margin: auto; width:200px;" /><br />
+                    @Html.DisplayFor(modelItem => item.matricula)
+                </div>
+            </a>
+        }
+    </div>
+</div>
+
+@Html.LabelFor(x => x.GamaMedia, new { style = "margin-left: 50px;" })
+<img id="btn2" onclick="cambiarStyle(2)" style="cursor: pointer; margin-top: -10px; margin-left: 10px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABOUlEQVRIS+2V7xHBQBDFpQMlKIEO6IASdEAFqIAO6IAO6IAOpANKsL8PZy6y7k/mTnzIzuyE3N572Ze9l6LXUhQt8fY64p8p/xdS96XdleQwU9s3wV0abLvjqdw8ZiI1sHP5ceCPTUzHj4zET8GeSNJ57Tjl7BqZd5rU5h5y8wAp4yRgMxtQm2okv0tyTREViV0ds5ZS8orEPmLWU0jOBDPJtXAZCFJfJQcN9S5l30gSqaOIKR5LnhsSM0wMlRohlrmVnYtIco7N26WadGz2IHmolTolNoAhHVPLe+aI+YL3icQXX2EoMTjIjeyu2Mji2kfKegwx9S7J8WC8WJ3iz4eJJf72IVHdydV5LDFYmqup7pSaGDzb1WofgBzv2GAi+V6SK5ZYhpDZNU2kjuVQ6zviJDKGgLQm9QsC7S0fn4YEFgAAAABJRU5ErkJggg==" />
+
+<div class="invisible" id="H2">
+    <div class="row row-cols-1 row-cols-md-4 mb-3 text-center" style="display: flex; flex-direction: row; gap: 50px; padding-top: 10px; padding-left: 100px;">
+        @foreach (var item in Model.CochesMedios)
+        {
+            <a class="cardBtn" href="@Url.Action("PiezasCoche", "Caroto", new { matricula = item.matricula, imagen = item.Imagen})">
+                <div class="cardMk2">
+                    <img src="@item.Imagen" style="margin: auto; width:200px;" /><br />
+                    @Html.DisplayFor(modelItem => item.matricula)
+                </div>
+            </a>
+        }
+    </div>
+</div>
+
+@Html.LabelFor(x => x.GamaAlta, new { style = "margin-left: 50px;" })
+<img id="btn3" onclick="cambiarStyle(3)" style="cursor: pointer; margin-top: -10px; margin-left: 10px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABOUlEQVRIS+2V7xHBQBDFpQMlKIEO6IASdEAFqIAO6IAO6IAOpANKsL8PZy6y7k/mTnzIzuyE3N572Ze9l6LXUhQt8fY64p8p/xdS96XdleQwU9s3wV0abLvjqdw8ZiI1sHP5ceCPTUzHj4zET8GeSNJ57Tjl7BqZd5rU5h5y8wAp4yRgMxtQm2okv0tyTREViV0ds5ZS8orEPmLWU0jOBDPJtXAZCFJfJQcN9S5l30gSqaOIKR5LnhsSM0wMlRohlrmVnYtIco7N26WadGz2IHmolTolNoAhHVPLe+aI+YL3icQXX2EoMTjIjeyu2Mji2kfKegwx9S7J8WC8WJ3iz4eJJf72IVHdydV5LDFYmqup7pSaGDzb1WofgBzv2GAi+V6SK5ZYhpDZNU2kjuVQ6zviJDKGgLQm9QsC7S0fn4YEFgAAAABJRU5ErkJggg==" />
+
+<div class="invisible" id="H3">
+    <div class="row row-cols-1 row-cols-md-4 mb-3 text-center" style="display: flex; flex-direction: row; gap: 50px; padding-top: 10px; padding-left: 100px;">
+        @foreach (var item in Model.CochesAltos)
+        {
+            <a class="cardBtn" href="@Url.Action("PiezasCoche", "Caroto", new { matricula = item.matricula, imagen = item.Imagen})">
+                <div class="cardMk2">
+                    <img src="@item.Imagen" style="margin: auto; width:200px;" /><br />
+                    @Html.DisplayFor(modelItem => item.matricula)
+                </div>
+            </a>
+        }
+    </div>
+</div>

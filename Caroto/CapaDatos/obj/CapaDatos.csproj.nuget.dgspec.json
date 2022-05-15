@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaDatos\\CapaDatos.csproj": {}
+    "E:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaDatos\\CapaDatos.csproj": {
+    "E:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaDatos\\CapaDatos.csproj",
+        "projectUniqueName": "E:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj",
         "projectName": "CapaDatos",
-        "projectPath": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaDatos\\CapaDatos.csproj",
+        "projectPath": "E:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj",
         "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaDatos\\obj\\",
+        "outputPath": "E:\\Caroto\\Caroto\\CapaDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,20 @@
+﻿@model CapaSoporte.Principal
+
+@{
+    Layout = "_Layout - tienda";
+}
+
+<section id="productos" style="margin: 130px 40px 130px 40px;">
+    <div class="container">
+        <h2>Elija su Vehiculo</h2>
+        <div class="card-container">
+            @foreach (var a in Model.secun)
+            {
+                <div class="card" style="display: flex; align-items: center;">
+                    <h3>@a.Titulo</h3>
+                    @Html.ActionLink("Elegir", a.Descripcion, "Caroto", null, new { @class = "regButton", style = "margin: 20px 0px; font-size: 20px; text-decoration: none;" })
+                </div>
+            }
+        </div>
+    </div>
+</section>

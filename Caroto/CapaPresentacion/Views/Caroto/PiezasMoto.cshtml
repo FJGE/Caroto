@@ -1,0 +1,26 @@
+﻿@model CapaSoporte.AllList
+
+@{
+    Layout = "_Layout - moto";
+}
+
+@using (Html.BeginForm("Index", "Caroto", FormMethod.Post))
+{
+
+    @Html.LabelFor(x => x.Titulo, new { style = "margin-left: 50px; margin-top: 20px;" })
+    <div class="row row-cols-1 row-cols-md-4 mb-3 text-center" style="display: flex; flex-direction: row; gap: 50px; padding-top: 10px; padding-left: 100px;">
+        @foreach (var item in Model.PiezasMoto)
+        {
+            <div class="cardMk2" style="height: 265px !important;">
+                <img src="@item.Imagen" style="margin: auto; width:200px;" /><br />
+                @Html.DisplayFor(modelItem => item.nombre)
+                @Html.DisplayFor(modelItem => item.precio)€
+                <input type="checkbox" value="@item.id" style="margin-top: 5px;">
+            </div>
+        }
+    </div>
+
+    <div class="buttons" style="justify-content: center;">
+        @Html.ActionLink("Continuar", "Compra", "Caroto", new { matricula = ViewBag.matricula, imagen = ViewBag.imagen, datos = ViewBag.datos }, new { @class = "regButton", style = "text-decoration: none; position: center;" })
+    </div>
+}

@@ -1,0 +1,12 @@
+D:\Caroto\Caroto\CapaSoporte\bin\Release\net5.0\CapaSoporte.deps.json
+D:\Caroto\Caroto\CapaSoporte\bin\Release\net5.0\CapaSoporte.dll
+D:\Caroto\Caroto\CapaSoporte\bin\Release\net5.0\ref\CapaSoporte.dll
+D:\Caroto\Caroto\CapaSoporte\bin\Release\net5.0\CapaSoporte.pdb
+D:\Caroto\Caroto\CapaSoporte\obj\Release\net5.0\CapaSoporte.csproj.AssemblyReference.cache
+D:\Caroto\Caroto\CapaSoporte\obj\Release\net5.0\CapaSoporte.GeneratedMSBuildEditorConfig.editorconfig
+D:\Caroto\Caroto\CapaSoporte\obj\Release\net5.0\CapaSoporte.AssemblyInfoInputs.cache
+D:\Caroto\Caroto\CapaSoporte\obj\Release\net5.0\CapaSoporte.AssemblyInfo.cs
+D:\Caroto\Caroto\CapaSoporte\obj\Release\net5.0\CapaSoporte.csproj.CoreCompileInputs.cache
+D:\Caroto\Caroto\CapaSoporte\obj\Release\net5.0\CapaSoporte.dll
+D:\Caroto\Caroto\CapaSoporte\obj\Release\net5.0\ref\CapaSoporte.dll
+D:\Caroto\Caroto\CapaSoporte\obj\Release\net5.0\CapaSoporte.pdb

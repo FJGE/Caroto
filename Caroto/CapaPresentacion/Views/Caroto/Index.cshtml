@@ -1,0 +1,56 @@
+﻿@model CapaSoporte.Principal
+
+@using (Html.BeginForm("Index", "Caroto", FormMethod.Post))
+{
+    <section id="hero">
+        <div class="text">
+            <h1>@Model.Titulo</h1>
+            <p>@Model.Descripcion</p>
+            <div class="buttons">
+                @Html.ActionLink("Iniciar Sesión", "", "Caroto", null, new { @class = "logButton", onclick = "showLog();return false;", style = "text-decoration: none;" })
+                @Html.ActionLink("Registrarse", "Registro", "Caroto", null, new { @class = "regButton", style = "text-decoration: none;" })
+            </div>
+        </div>
+    </section>
+
+    <div id="logWindow">
+        <div class="popup">
+            <h1>@Model.Iniciar_Sesion</h1>
+            <div class="XBtn" onclick="closeLog()">&#10060;</div>
+            @Html.LabelFor(x => x.Correo, new { })
+            @Html.TextBoxFor(x => x.Correo, new { @class = "input", placeholder = "Correo" })
+            @Html.ValidationMessageFor(x => x.Correo, null, new { @class = "text-danger" })
+
+            @Html.LabelFor(x => x.Contraseña, new { })
+            @Html.PasswordFor(x => x.Contraseña, new { @class = "input", placeholder = "Contraseña" })
+            @Html.ValidationMessageFor(x => x.Contraseña, null, new { @class = "text-danger" })
+            @Html.ActionLink("Iniciar Sesión", "SeleccionVehiculo", "Caroto", null, new { @class = "popup a", onclick = "document.forms[0].submit();return false" })
+        </div>
+    </div>
+
+    <section id="productos">
+        <div class="container">
+            <h2>@Model.Productos</h2>
+            <div class="card-container">
+                @foreach (var a in Model.secun)
+                {
+                    <div class="card">
+                        <h3>@a.Titulo</h3>
+                        <p>@a.Descripcion</p>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-nosotros">
+        <div class="container">
+            <div class="text">
+                <h3>@Model.Sobre_Nosotros</h3>
+                <p>@Html.Raw(Model.Descripcion2)</p>
+            </div>
+            <div class="img-container"></div>
+        </div>
+    </section>
+       }

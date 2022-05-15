@@ -1,0 +1,12 @@
+D:\Caroto\Caroto\CapaDatos\bin\Release\net5.0\CapaDatos.deps.json
+D:\Caroto\Caroto\CapaDatos\bin\Release\net5.0\CapaDatos.dll
+D:\Caroto\Caroto\CapaDatos\bin\Release\net5.0\ref\CapaDatos.dll
+D:\Caroto\Caroto\CapaDatos\bin\Release\net5.0\CapaDatos.pdb
+D:\Caroto\Caroto\CapaDatos\obj\Release\net5.0\CapaDatos.csproj.AssemblyReference.cache
+D:\Caroto\Caroto\CapaDatos\obj\Release\net5.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Caroto\Caroto\CapaDatos\obj\Release\net5.0\CapaDatos.AssemblyInfoInputs.cache
+D:\Caroto\Caroto\CapaDatos\obj\Release\net5.0\CapaDatos.AssemblyInfo.cs
+D:\Caroto\Caroto\CapaDatos\obj\Release\net5.0\CapaDatos.csproj.CoreCompileInputs.cache
+D:\Caroto\Caroto\CapaDatos\obj\Release\net5.0\CapaDatos.dll
+D:\Caroto\Caroto\CapaDatos\obj\Release\net5.0\ref\CapaDatos.dll
+D:\Caroto\Caroto\CapaDatos\obj\Release\net5.0\CapaDatos.pdb

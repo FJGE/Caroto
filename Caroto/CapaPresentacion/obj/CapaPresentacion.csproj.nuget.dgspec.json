@@ -1,17 +1,238 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj": {}
+    "E:\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaDatos\\CapaDatos.csproj": {
+    "E:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaDatos\\CapaDatos.csproj",
+        "projectUniqueName": "E:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj",
         "projectName": "CapaDatos",
-        "projectPath": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaDatos\\CapaDatos.csproj",
+        "projectPath": "E:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj",
         "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaDatos\\obj\\",
+        "outputPath": "E:\\Caroto\\Caroto\\CapaDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1DAW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj",
+        "projectName": "CapaNegocio",
+        "projectPath": "E:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj",
+        "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
+        "outputPath": "E:\\Caroto\\Caroto\\CapaNegocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1DAW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "E:\\Caroto\\Caroto\\CapaDatos\\CapaDatos.csproj"
+              },
+              "E:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj": {
+                "projectPath": "E:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.28, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj",
+        "projectName": "CapaPresentacion",
+        "projectPath": "E:\\Caroto\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj",
+        "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
+        "outputPath": "E:\\Caroto\\Caroto\\CapaPresentacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1DAW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj": {
+                "projectPath": "E:\\Caroto\\Caroto\\CapaNegocio\\CapaNegocio.csproj"
+              },
+              "E:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj": {
+                "projectPath": "E:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj",
+        "projectName": "CapaSoporte",
+        "projectPath": "E:\\Caroto\\Caroto\\CapaSoporte\\CapaSoporte.csproj",
+        "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
+        "outputPath": "E:\\Caroto\\Caroto\\CapaSoporte\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,134 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaNegocio\\CapaNegocio.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaNegocio\\CapaNegocio.csproj",
-        "projectName": "CapaNegocio",
-        "projectPath": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaNegocio\\CapaNegocio.csproj",
-        "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaNegocio\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\1DAW\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaDatos\\CapaDatos.csproj": {
-                "projectPath": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaDatos\\CapaDatos.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj",
-        "projectName": "CapaPresentacion",
-        "projectPath": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaPresentacion\\CapaPresentacion.csproj",
-        "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaPresentacion\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\1DAW\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaNegocio\\CapaNegocio.csproj": {
-                "projectPath": "C:\\Users\\1DAW\\Documents\\Asignaturas\\Programacion2\\Caroto\\CapaNegocio\\CapaNegocio.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
